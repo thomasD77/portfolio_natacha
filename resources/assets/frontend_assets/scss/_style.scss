@@ -1,0 +1,355 @@
+/************************************** Algemene SCSS ****************************************************
+********************************************************************************************************/
+
+@font-face {
+  font-family: HKG;
+  src: url('../fonts/TTF/HKGrotesk-Regular.ttf');
+}
+@font-face {
+  font-family: HKGbold;
+    src: url('../fonts/TTF/HKGrotesk-Bold.ttf');
+}
+@font-face {
+  font-family: Montbold;
+  src: url('../fonts/Montserrat (1)/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: Pop;
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: PopBold;
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: RalewayR;
+  src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url('../fonts/Raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: PTserifBold;
+  src: url('../fonts/PT_Serif/PTSerif-Bold.ttf');
+}
+@font-face {
+  font-family: Bradley;
+  src: url('../fonts/Bradley/JustAnotherHand-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+}
+.w-5{
+    width: 5%;
+}
+
+.w-15{
+  width: 15%;
+}
+.w-60{
+  width: 60%;
+}
+
+$colorPrimary: #0d6efd;
+$colorWhite: #FFFFFF;
+$colorBlack: #000000;
+$colorAntraciet: #333333;
+$colorBackground: #f8f7f7;
+$colorYellow: #ffff00;
+
+
+
+.green{
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+}
+
+.groengroen{
+    color: rgba(0,141,127,1);
+}
+
+.mosgroen{
+    color: rgba(0,76,69,1);
+}
+
+.appelgroen{
+    color: rgba(107,197,112);
+}
+
+.kiwigroen{
+    color: rgba(121,172,43);
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(121,172,43);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*body{
+  font-family: RalewayR;
+  font-size: 1rem;
+  color: $colorAntraciet;
+    background-color: yellow;
+}*/
+
+header{
+  background: $colorBackground;
+  #logotitle{
+    font-family: RobotoRegular;
+    font-size: 1.3rem;
+    color: $colorAntraciet;
+  }
+    .navbar{
+        background: $colorBackground;
+    }
+  .navbar-nav > li > a {
+    color: black;
+
+      font-family: RobotoBold;
+    font-size: 0.8rem;
+      border: 1px solid transparent;
+      border-radius: 25px;
+  }
+  #tools{
+    width: 50%;
+  }
+  .navbar-toggler {
+    border-color: $colorAntraciet !important;
+  }
+  .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+}
+
+.outlinetest{
+    outline-color: #000000;
+}
+
+#social a{
+    font-size: 1.5rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+    background: #d3d3d3;
+    border-radius: 50%;
+}
+#social a:hover{
+    background: black;
+    color: white;
+}
+
+#social2 a{
+    font-size: 1rem;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,141,127);
+}
+#social2 a:hover{
+    background: white;
+    color: rgba(0,141,127);
+    font-size: 1.3rem;
+}
+#social2 p {
+    font-family: RobotoRegular;
+    font-size: 0.8rem;
+}
+
+
+
+
+.gegevens{
+    background: #d3d3d3;
+    .newsstyle{
+        font-family: RobotoBold;
+    }
+    .newsstyle:hover{
+        font-weight: 1500;
+        text-decoration: underline;
+    }
+  h3{
+    font-size: 1.2rem;
+    font-family: RobotoBold;
+  }
+    p{
+        font-family: RobotoRegular;
+    }
+    a > p{
+        font-family: RobotoRegular;
+    }
+  .emaillabel{
+    background: #D9D7D7;
+  }
+  .emailinput{
+    border: none;
+    background: #D9D7D7;
+    outline-color: #D9D7D7;
+    width: 90%;
+  }
+  .emailbtn{
+    border: none;
+    background: #D9D7D7;
+    outline-color: #D9D7D7;
+  }
+    #logofooter{
+        width: 50%;
+    }
+
+}
+footer{
+    background: #d3d3d3;
+
+}
+
+h1{
+  font-family: RobotoBold;
+  font-size: 1.5rem;
+}
+
+
+
+/********************************************** Home ************************************************************
+***************************************************************************************************************/
+
+
+/*** bereikbaar ***/
+#bereikbaar{
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+
+  #btnnewsletter{
+    width: 9rem;
+    height: 2.32rem;
+    color: $colorWhite;
+    border: none;
+
+  }
+    #inputmail {
+        background: rgb(91, 132, 226, 0.2);
+        color: $colorWhite;
+        border: none;
+    }
+  input::-webkit-input-placeholder {
+    color: $colorWhite;
+  }
+
+}
+
+
+/********************************************* ABOUT US **************************************************
+**********************************************************************************************************/
+
+#about{
+    background-color: #ffffff;
+    h1{
+        font-family: RobotoBold;
+    }
+  h2{
+    font-size: 1.2rem;
+    font-family: RobotoBold;
+  }
+    h3{
+        font-size: 1.1rem;
+        font-family: RobotoBold;
+        color: rgba(0,76,69,1);
+    }
+    p{
+        font-family: RobotoRegular;
+    }
+}
+
+
+/********************************************* Contact **************************************************
+**********************************************************************************************************/
+
+.button {
+    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#input1:focus, #input2:focus, #input3:focus, #input4:focus {
+    border-color: black;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+accordion-icon-color{
+    color: red;
+}
+
+/***********************************************************************************************************
+                                        SCREENS LARGER THEN MOBILE
+***********************************************************************************************************/
+
+@media (min-width: 768px){
+  #social2{
+    margin-right: 20%;
+  }
+    .gegevens{
+        #logofooter{
+            width: 50%;
+        }
+    }
+}
+
+@media (min-width: 992px){
+  .navbar-nav > li > a {
+      &:hover {
+          border: 1px solid black;
+          border-radius: 25px;
+          background-color: black;
+          color: white;
+      }
+  }
+    #bereikbaar{
+        #inputmail {
+            width:350px;
+        }
+    }
+
+}
+
+
+
+
+
