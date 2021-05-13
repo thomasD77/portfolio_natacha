@@ -6,8 +6,7 @@
     <!-- Sidebar -->
     <ul class="navbar-nav green sidebar sidebar-dark accordion" id="accordionSidebar">
 
-
-        <!-- Sidebar - Brand -->
+        <!-- Sidebar - Top -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{route('home')}}">
             <div class="sidebar-brand-icon">
                 <i class="fas fa-door-open"></i>
@@ -49,10 +48,10 @@
 
 
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
+           {{-- <!-- Divider -->
+            <hr class="sidebar-divider">--}}
 
-            <!-- Nav Item - FAQ Collapse Menu -->
+            {{--<!-- Nav Item - FAQ Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFAQ"
                    aria-expanded="true" aria-controls="collapseFAQ">
@@ -64,13 +63,10 @@
                         <a class="collapse-item" href="{{route('faqs.index')}}"><i class="far fa-check-circle pr-3"></i> FAQ</a>
                     </div>
                 </div>
-            </li>
-
-
+            </li>--}}
 
         <!-- Divider -->
         <hr class="sidebar-divider">
-
 
             <!-- Nav Item - Reviews Collapse Menu -->
             <li class="nav-item">
@@ -91,11 +87,8 @@
                 </div>
             </li>
 
-
-
             <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
-
 
 
             <!-- Nav Item - Shop Collapse Menu -->
@@ -117,7 +110,7 @@
 
 
 
-            <!-- Nav Item - Shop Collapse Menu -->
+            <!-- Nav Item - Newsletter Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNewsletter"
                    aria-expanded="true" aria-controls="collapseNewsletter">
@@ -134,7 +127,7 @@
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
 
-                <!-- Nav Item - Shop Collapse Menu -->
+                <!-- Nav Item - Facebook Collapse Menu -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFacebook"
                        aria-expanded="true" aria-controls="collapseFacebook">
@@ -151,7 +144,7 @@
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
 
-                <!-- Nav Item - Shop Collapse Menu -->
+                <!-- Nav Item - Vacatures Collapse Menu -->
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"
                        aria-expanded="true" aria-controls="collapseVacatures">
@@ -160,18 +153,13 @@
                     </a>
                     <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Job Offers</a>
+                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>
                         </div>
-                    </div>
-                    <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
+                            <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
                         </div>
                     </div>
-
                 </li>
-
-
 
 
         <!-- Sidebar Message -->
@@ -187,19 +175,19 @@
     @can('isPublisher')
 
         <!-- Divider -->
-            <hr class="sidebar-divider">
+        {{--    <hr class="sidebar-divider">
 
 
-            <!-- Nav Item - FAQ Collapse Menu -->
+            <!-- Nav Item - Users Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFAQ"
-                   aria-expanded="true" aria-controls="collapseFAQ">
-                    <i class="fas fa-question-circle"></i>
-                    <span>FAQ</span>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-users"></i>
+                    <span>Users</span>
                 </a>
-                <div id="collapseFAQ" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('faqs.index')}}"><i class="far fa-check-circle pr-3"></i> FAQ</a>
+                        <a class="collapse-item" href="{{route('users.index')}}"><i class="far fa-check-circle pr-3"></i> Users</a>
                     </div>
                 </div>
             </li>
@@ -207,8 +195,24 @@
 
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <hr class="sidebar-divider">--}}
 
+        {{--<!-- Nav Item - FAQ Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFAQ"
+               aria-expanded="true" aria-controls="collapseFAQ">
+                <i class="fas fa-question-circle"></i>
+                <span>FAQ</span>
+            </a>
+            <div id="collapseFAQ" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <a class="collapse-item" href="{{route('faqs.index')}}"><i class="far fa-check-circle pr-3"></i> FAQ</a>
+                </div>
+            </div>
+        </li>--}}
+
+        <!-- Divider -->
+            <hr class="sidebar-divider">
 
             <!-- Nav Item - Reviews Collapse Menu -->
             <li class="nav-item">
@@ -229,11 +233,8 @@
                 </div>
             </li>
 
-
-
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-
 
 
             <!-- Nav Item - Shop Collapse Menu -->
@@ -255,7 +256,7 @@
 
 
 
-            <!-- Nav Item - Shop Collapse Menu -->
+            <!-- Nav Item - Newsletter Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNewsletter"
                    aria-expanded="true" aria-controls="collapseNewsletter">
@@ -269,7 +270,42 @@
                 </div>
             </li>
 
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
 
+            <!-- Nav Item - Facebook Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFacebook"
+                   aria-expanded="true" aria-controls="collapseFacebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+                <div id="collapseFacebook" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{route('facebook.index')}}"><i class="far fa-check-circle pr-3"></i>Posts</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Nav Item - Vacatures Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"
+                   aria-expanded="true" aria-controls="collapseVacatures">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Job Offers</span>
+                </a>
+                <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>
+                    </div>
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
+                    </div>
+                </div>
+            </li>
 
 
             <!-- Sidebar Message -->
@@ -278,7 +314,6 @@
                 <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>
                 <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
             </div>
-
 
     @endcan
 

@@ -10,7 +10,61 @@
                         Lucas, Nicolas en Benoit vormen wij het Groene kabinet op het stadhuis.</p>
                 </div>
                 <div class="mx-auto d-flex justify-content-center">
-                    <a class="btn btn-dark" href="">Solliciteer Hier</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Solliciteer hier
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Solicitatie formulier:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    {!! Form::open(['method'=>'POST', 'action'=>'App\Http\Controllers\AdminApplicantsController@store','files'=>true]) !!}
+                                    <div class="form-group">
+                                        {!! Form::label('first_name', 'First Name:') !!}
+                                        {!! Form::text('first_name',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('last_name', 'Last Name:') !!}
+                                        {!! Form::text('last_name',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('email', 'E-mail:') !!}
+                                        {!! Form::text('email',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('start_date', 'Start date:') !!}
+                                        {!! Form::date('start_date',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('phone', 'Phone:') !!}
+                                        {!! Form::text('phone',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('birthdate', 'Birthdate:') !!}
+                                        {!! Form::date('birthdate',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('remarque', 'What else do we need to know about you:') !!}
+                                        {!! Form::textarea('remarque',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::label('file', 'CV:') !!}
+                                        {!! Form::file('file',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
+                                        {!! Form::submit('Submit',['class'=>'btn btn-dark']) !!}
+                                        {!! Form::close() !!}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>

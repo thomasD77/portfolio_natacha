@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Agreement;
+use App\Models\Applicant;
 use App\Models\FAQ;
 use App\Models\Order;
 use App\Models\Post;
@@ -37,7 +39,8 @@ class AdminHomeController extends Controller
         $readers = Reader::paginate(10);
         $prospects = Prospect::paginate(10);
         $posts = Post::paginate(10);
-        $faqs = FAQ::paginate(10);
-        return view('admin.includes.admin' , compact('users', 'user', 'readers', 'posts', 'prospects', 'faqs'));
+        $applicants = Applicant::paginate(10);
+        $agreements = Agreement::latest()->limit(1)->get();
+        return view('admin.includes.admin' , compact('users', 'user', 'readers', 'posts', 'prospects', 'applicants', 'agreements'));
     }
 }

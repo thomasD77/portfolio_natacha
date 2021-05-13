@@ -105,9 +105,10 @@ Route::post('admin/newsletter', 'App\Http\Controllers\AdminReadersController@sto
 
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
+    Route::resource('/applicants', App\Http\Controllers\AdminApplicantsController::class);
     Route::resource('/vacatures', App\Http\Controllers\AdminVacaturesController::class);
     Route::get('vacatures/restore/{id}', 'App\Http\Controllers\AdminVacaturesController@vacatureRestore')->name('admin.vacatureRestore');
-
+    Route::resource('/agreements', App\Http\Controllers\AdminAgreementsController::class);
     Route::resource('/facebook', App\Http\Controllers\AdminFacebookController::class);
     Route::get('facebook/restore/{id}', 'App\Http\Controllers\AdminFacebookController@facebookRestore')->name('admin.facebookRestore');
     Route::post('/newsletter/send', 'App\Http\Controllers\AdminNewslettersController@newsletter_send_email')->name('newsletter_send_email');

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Agreement;
 use App\Models\Brand;
 use App\Models\Cart;
 use App\Models\ColorCart;
@@ -56,9 +57,10 @@ class FrontendController extends Controller
 
 
     public function index_about(){
+        $agreements = Agreement::latest()->limit(1)->get();
         $timeNow = Carbon::now()->toDateString();
         $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
-        return view('frontend.about', compact('footer_posts'));
+        return view('frontend.about', compact('footer_posts', 'agreements'));
     }
 
     public function index_blog(){
