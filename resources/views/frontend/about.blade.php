@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="row mt-4">
-                    <img class="img-fluid mt-5" src="{{asset('images/frontend/silke_strand.jpg')}}" alt="SilkeBeirens">
-                    <h1 id="wie" class="my-5">Wie is Silke Beirens...</h1>
+                    {{--<img class="img-fluid mt-5" src="{{asset('images/frontend/silke_strand.jpg')}}" alt="SilkeBeirens">--}}
+                    <h1 id="wie" class="my-5">Wie is Natacha Waldamnn...</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
                         cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
                         provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,

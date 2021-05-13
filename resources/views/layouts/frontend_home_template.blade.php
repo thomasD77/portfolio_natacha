@@ -1,4 +1,4 @@
 @include('frontend.includes.head')
-@include('frontend.includes.nav-bar_home')
+@include('frontend.includes.nav-bar')
 @yield('content')
 @include('frontend.includes.footer_home')

@@ -104,6 +104,7 @@ Route::post('admin/newsletter', 'App\Http\Controllers\AdminReadersController@sto
 
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
+    Route::resource('/facebook', App\Http\Controllers\AdminFacebookController::class);
     Route::post('/newsletter/send', 'App\Http\Controllers\AdminNewslettersController@newsletter_send_email')->name('newsletter_send_email');
     Route::resource('/newsletters', App\Http\Controllers\AdminNewslettersController::class);
     Route::resource('/faqs', App\Http\Controllers\AdminFAQSController::class);

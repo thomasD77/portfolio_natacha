@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Facebook;
 use App\Models\Post;
 use App\Models\Product;
 use App\Models\Promo;
@@ -29,28 +30,11 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $facebook = Facebook::latest()->paginate(3);
         $timeNow = Carbon::now()->toDateString();
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(3)->get();
         $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
-        return view('frontend.home', compact('posts', 'footer_posts'));
+        return view('frontend.home', compact('posts', 'footer_posts', 'facebook'));
     }
-
-
-
-
-    public function promo_selector($id)
-    {
-        $promos = Promo::all();
-        $products = Promo::findOrFail($id)->products()->with(['photo', 'user', 'tags'])->paginate(10);
-        $promoToDay = Promo::findOrFail(1)->products()->with(['photo', 'user', 'tags'])->first();
-        $promotrends = Promo::findOrFail(7)->products()->limit(3)->with(['photo', 'user', 'tags'])->limit(3)->get();
-        return view ('frontend.home',  compact('products', 'promos' , 'promoToDay', 'promotrends'));
-
-    }
-
-
-
-
-
 
 }

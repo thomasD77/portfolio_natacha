@@ -1,16 +1,8 @@
 @extends('layouts.frontend_home_template')
 @section('content')
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 d-flex flex-column">
 
-                <img class="img-fluid " src="{{asset('images/frontend/silke_psd.jpg')}}" alt="">
-        </div>
-    </div>
-</div>
 <main>
-
-    <section class="container-fluid my-5">
+  {{-- <section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </h1>
@@ -21,7 +13,88 @@
                     inventore, odio officia quasi quidem sunt totam voluptate voluptates? </p>
             </div>
         </div>
+    </section>--}}
+
+    <section id="facebook-scroll" class="container-fluid my-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="fb-page"
+                             data-href="https://www.facebook.com/NatachaWaldmannOostende"
+                             data-tabs="timeline"
+                             data-width="1500" data-height=""
+                             data-small-header="false"
+                             data-adapt-container-width="true"
+                             data-hide-cover="false"
+                             data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/NatachaWaldmannOostende"
+                                        class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/NatachaWaldmannOostende">Natacha Waldmann</a>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div>
+                            <h2 class="text-center">Scroll Away In My Facebook Feed</h2>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                            </p>
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="facebook-post" class="container-fluid my-5">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 my-5">
+                        <h2 class="text-center">Scroll Away In My Facebook Feed</h2>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                            necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                            optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                            necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                            optio quibusdam sunt tenetur voluptate voluptates voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                            necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                            optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
+                            necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
+                            optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                        </p>
+                        <p class="text-center">
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        @foreach($facebook as $post)
+                            <div class="col-md-4">
+                                {!! $post->code !!}
+                            </div>
+                        @endforeach
+                    </div>
+                    <div class="d-flex justify-content-center my-4">
+                        {{$facebook->links()}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -80,10 +153,6 @@
     </section>
 
 
-    <div id="socials" class="container my-5">
-        <h2 class="text-center my-4">My Instagram Feed</h2>
-        <div id="instafeed-container" class="row gallery"></div>
-    </div>
 @stop
 
 

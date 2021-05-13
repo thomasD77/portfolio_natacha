@@ -5,7 +5,7 @@
         <div class="col-12 col-lg-8 offset-lg-2">
             <div class="row">
                 <div class="col-12 col-xl-3 mb-5">
-                    <h3 class="text-uppercase mb-4">Silke Beirens</h3>
+                    <h3 class="text-uppercase mb-4">Natacha Waldmann</h3>
                     <p>Schepen Mens & Milieu</p>
                     <p>Silke.Beirens@oostende.be</p>
                     <p>T 059 25 84 59</p>
@@ -54,9 +54,9 @@
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">About Us</h3>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Silke Beirens?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Silke Natacha?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Wat zijn Silke haar bevoegdheden?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Wat zijn Natacha haar bevoegdheden?</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact Us</h3>
