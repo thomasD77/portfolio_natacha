@@ -1,4 +1,4 @@
-/************************************** Algemene SCSS ****************************************************
+    /************************************** Algemene SCSS ****************************************************
 ********************************************************************************************************/
 
 @font-face {
@@ -98,6 +98,14 @@ $colorYellow: #ffff00;
     color: rgba(121,172,43);
 }
 
+.bg-limoengroen{
+    background-color: rgba(202,219,52);
+}
+
+.limoengroen{
+    color: rgba(202,219,52);
+}
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -131,13 +139,13 @@ header{
   #logotitle{
     font-family: RobotoRegular;
     font-size: 1.3rem;
-    color: $colorAntraciet;
+    color: white;
   }
     .navbar{
-        background: $colorBackground;
+        background: $colorAntraciet;
     }
   .navbar-nav > li > a {
-    color: black;
+    color: white;
 
       font-family: RobotoBold;
     font-size: 0.8rem;
@@ -169,7 +177,7 @@ header{
     border-radius: 50%;
 }
 #social a:hover{
-    background: black;
+    background: rgba(0,141,127,1);
     color: white;
 }
 
@@ -194,7 +202,8 @@ header{
 
 
 .gegevens{
-    background: #d3d3d3;
+    background: $colorAntraciet;
+    color: white;
     .newsstyle{
         font-family: RobotoBold;
     }
@@ -208,31 +217,21 @@ header{
   }
     p{
         font-family: RobotoRegular;
+        color: white;
     }
     a > p{
         font-family: RobotoRegular;
+        color: white;
+
     }
-  .emaillabel{
-    background: #D9D7D7;
-  }
-  .emailinput{
-    border: none;
-    background: #D9D7D7;
-    outline-color: #D9D7D7;
-    width: 90%;
-  }
-  .emailbtn{
-    border: none;
-    background: #D9D7D7;
-    outline-color: #D9D7D7;
-  }
     #logofooter{
         width: 50%;
     }
 
 }
 footer{
-    background: #d3d3d3;
+    background: $colorAntraciet;
+    color: white;
 
 }
 
@@ -249,7 +248,8 @@ h1{
 
 /*** bereikbaar ***/
 #bereikbaar{
-    background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);
+   /* background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);*/
+
 
   #btnnewsletter{
     width: 9rem;
@@ -313,9 +313,9 @@ h1{
     box-shadow: none;
 }
 
-accordion-icon-color{
-    color: red;
-}
+
+
+
 
 /***********************************************************************************************************
                                         SCREENS LARGER THEN MOBILE
@@ -335,10 +335,10 @@ accordion-icon-color{
 @media (min-width: 992px){
   .navbar-nav > li > a {
       &:hover {
-          border: 1px solid black;
+          border: 1px solid white;
           border-radius: 25px;
-          background-color: black;
-          color: white;
+          background-color: white;
+          color: black;
       }
   }
     #bereikbaar{

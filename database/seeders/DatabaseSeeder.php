@@ -40,6 +40,8 @@ class DatabaseSeeder extends Seeder
             PermissionTableSeeder::class,
             NewslettersTableSeeder::class,
             FAQSTableSeeder::class,
+            FacebookTableSeeder::class,
+            VacatureTableSeeder::class,
         ]);
     }
 }

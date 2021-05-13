@@ -12,6 +12,7 @@ use App\Models\Prospect;
 use App\Models\Reader;
 use App\Models\Review;
 use App\Models\User;
+use App\Models\Vacature;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -36,11 +37,11 @@ class AdminHomeController extends Controller
     {
         $user = Auth::user();
         $users = User::paginate(10);
-        $readers = Reader::paginate(10);
         $prospects = Prospect::paginate(10);
         $posts = Post::paginate(10);
+        $vacatures = Vacature::paginate(10);
         $applicants = Applicant::paginate(10);
         $agreements = Agreement::latest()->limit(1)->get();
-        return view('admin.includes.admin' , compact('users', 'user', 'readers', 'posts', 'prospects', 'applicants', 'agreements'));
+        return view('admin.includes.admin' , compact('users', 'user', 'vacatures', 'posts', 'prospects', 'applicants', 'agreements'));
     }
 }

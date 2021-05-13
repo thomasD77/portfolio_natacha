@@ -1,13 +1,13 @@
 @extends('layouts.frontend_template')
 @section('content')
-    <div class="col-md-10 offset-md-1">
+    <main>
+    <div class="col-md-8 offset-md-2">
         <div class="row">
-            <div class="">
                 <div>
-                    <h2 class="text-uppercase text-center my-4">Wie zijn wij?</h2>
-                    <p class="text-center">Wij zijn Natacha Waldmann en Silke Beirens, Groene Schepenen bij de Stad Oostende. Natacha is
-                        schepen van Welzijn, Zorg en Onderwijs, Silke van Mens en Milieu. Samen met onze medewerkers
-                        Lucas, Nicolas en Benoit vormen wij het Groene kabinet op het stadhuis.</p>
+                    <h2 class="text-uppercase text-center my-4">Onze Vacatures voor jouw</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolor
+                        doloribus earum eum ex harum porro quaerat, rerum veniam. Alias beatae dolor eos ipsam
+                        perferendis quisquam saepe tenetur voluptate? Tempore?</p>
                 </div>
                 <div class="mx-auto d-flex justify-content-center">
                     <!-- Button trigger modal -->
@@ -63,27 +63,24 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
             </div>
-            <div class="col-md-8 mx-auto my-5">
+            <div class="col-md-10 mx-auto my-5">
                 @foreach($vacatures as $vacature)
                     <div class="card shadow my-3" >
                         <div class="card-body">
-                            <h1 class="card-text my-3">{{$vacature->title}}</h1>
-                            <h4 class="card-title">Wat Bieden We?:</h4>
+                            <h2 class="card-text text-center my-3 bg-limoengroen fw-bold p-2 rounded">{{$vacature->title}}</h2>
+                            <h4 class="card-title mosgroen fw-bold">Wat Bieden We?:</h4>
                             <p class="card-text">{{$vacature->offer}}</p>
-                            <h4 class="card-title">Jouw Profiel:</h4>
-                            <p class="card-text">{{$vacature->profile}}</p>
-                            <h4 class="card-title">Takenpakket:</h4>
+                            <h4 class="card-title mosgroen fw-bold">Jouw Profiel:</h4>
+                            <p class="card-text ">{{$vacature->profile}}</p>
+                            <h4 class="card-title mosgroen fw-bold">Takenpakket:</h4>
                             <p class="card-text">{{$vacature->duties}}</p>
-                            <h4 class="card-title">Opmerkingen:</h4>
+                            <h4 class="card-title mosgroen fw-bold">Opmerkingen:</h4>
                             <p class="card-text">{{$vacature->remarque}}</p>
                             <hr>
-                            <p class="card-text">Created:{{$vacature->created_at->diffForHumans()}}</p>
-                            <p class="card-text">Updated:{{$vacature->updated_at->diffForHumans()}}</p>
+                            <p class="card-text mosgroen fw-bold">Created:{{$vacature->created_at->diffForHumans()}}</p>
+                            <p class="card-text mosgroen fw-bold">Updated:{{$vacature->updated_at->diffForHumans()}}</p>
                         </div>
                     </div>
                 @endforeach
@@ -91,10 +88,7 @@
                     {{$vacatures->links()}}
                 </div>
             </div>
-
-
         </div>
     </div>
-
-
+    </main>
 @stop

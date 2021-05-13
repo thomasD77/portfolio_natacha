@@ -3,13 +3,13 @@
     <div class="row">
         <nav class="navbar navbar-expand-lg pe-0 pb-0 pb-lg-2">
             <div class="col-12 col-lg-10 offset-lg-1 d-md-flex align-items-center px-0">
-                <div class="navbar-header d-flex justify-content-between align-items-center justify-content-lg-start">
+                <div class="navbar-header d-flex justify-content-between align-items-center  justify-content-lg-start">
                     <div class="d-none d-lg-block w-15">
                         <img class="img-fluid" src="{{asset('images/frontend/Avatar_groen.png')}}" alt="logo_groen"></div>
                     <a class="navbar-brand ps-0 ps-lg-3 me-4 py-0 text-uppercase" id="logotitle">Natacha Waldmann</a>
                     @auth()
                         <a class="d-none d-lg-block" href="{{route('admin.home')}}">
-                        <span class="badge badge-dark  shadow my-2 tools p-2 justify-content-end">
+                        <span class="badge badge-light  shadow my-2 tools p-2 justify-content-end">
                             <i class="fas fa-door-open"></i></span></a>
                     @endauth
                     <button class="navbar-toggler mr-4 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,20 +31,20 @@
                             <a class="nav-link pb-1 mx-2" href="{{route('blog')}}">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">Vacatures</a>
+                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">VACATURES</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 my-lg-2 d-none d-lg-block">
                     <div id="social" class="d-flex">
                         <a class="d-flex justify-content-center align-items-center"
-                           href="https://www.facebook.com/silbeirens" target="_blank"><i
+                           href="https://www.facebook.com/NatachaWaldmannOostende" target="_blank"><i
                                 class="fab fa-facebook-f" id="facebook"></i></a>
                         <a class="d-flex justify-content-center align-items-center"
-                           href="https://twitter.com/silkebeirens" target="_blank"><i
+                           href="https://twitter.com/natachawaldmann" target="_blank"><i
                                 class="fab fa-twitter"></i></a>
                         <a class="d-flex justify-content-center align-items-center"
-                           href="https://www.instagram.com/silkebeirensoostende/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           href="https://www.instagram.com/natachawaldmann.be/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -52,6 +52,7 @@
     </div>
 <div id="app"></div>
 </header>
+
 
 
 

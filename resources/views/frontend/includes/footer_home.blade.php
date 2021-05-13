@@ -1,4 +1,4 @@
-</main>
+
 <div class="container-fluid">
     <div class="gegevens row pt-5 pl-4">
         <div class="col-12 col-lg-8 offset-lg-2">
@@ -16,9 +16,9 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title d-flex align-items-center" id="exampleModalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mx-2 bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                                    <h5 class="modal-title d-flex align-items-center text-dark" id="exampleModalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mx-2 bi bi-envelope-open-fill" viewBox="0 0 16 16">
                                             <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
-                                        </svg>To: Silke.Beirens@oostende.be</h5>
+                                        </svg>To: natacha.waldmann@oostende.be</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
@@ -46,7 +46,6 @@
                                         </div>
                                     </form>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -80,7 +79,7 @@
 <button class="d-none d-md-block" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2 "></i></button>
 <footer>
     <hr class=" m-0">
-    <p class="text-center py-2 m-0">Copyright &copy; 2021 | Silke Beirens</p>
+    <p class="text-center py-2 m-0">Copyright &copy; 2021 | Natacha Waldmann</p>
 </footer>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v10.0&appId=274641024001693&autoLogAppEvents=1" nonce="0yTAqUl8"></script>

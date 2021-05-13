@@ -1,6 +1,12 @@
 @extends('layouts.frontend_home_template')
 @section('content')
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex flex-column px-0">
+                <img class="img-fluid " src="{{asset('images/frontend/natacha.jpg')}}" alt="">
+            </div>
+        </div>
+    </div>
 <main>
   {{-- <section class="container-fluid my-5">
         <div class="row">
@@ -121,7 +127,7 @@
             </div>
         </div>
     </section>
-    <div id="anchor"></div>
+   {{-- <div id="anchor"></div>
     <section class="container-fluid my-5">
         <div class="row px-0 py-5" id="bereikbaar">
             <div class="col-md-10 offset-md-1">
@@ -150,9 +156,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
-
+</main>
 @stop
 
 

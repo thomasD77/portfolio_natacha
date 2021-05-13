@@ -105,7 +105,7 @@
                 </div>
             </li>
 
-            <!-- Divider -->
+            {{--<!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
 
@@ -122,7 +122,7 @@
                         <a class="collapse-item" href="{{route('readers.index')}}"><i class="far fa-check-circle pr-3"></i>Readers</a>
                     </div>
                 </div>
-            </li>
+            </li>--}}
 
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
@@ -251,7 +251,7 @@
                 </div>
             </li>
 
-            <!-- Divider -->
+            {{--<!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
 
@@ -268,7 +268,7 @@
                         <a class="collapse-item" href="{{route('readers.index')}}"><i class="far fa-check-circle pr-3"></i>Readers</a>
                     </div>
                 </div>
-            </li>
+            </li>--}}
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
