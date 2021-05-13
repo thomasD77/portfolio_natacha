@@ -138,7 +138,7 @@
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFacebook"
                        aria-expanded="true" aria-controls="collapseFacebook">
-                        <i class="far fa-newspaper"></i>
+                        <i class="fab fa-facebook"></i>
                         <span>Facebook</span>
                     </a>
                     <div id="collapseFacebook" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -146,6 +146,29 @@
                             <a class="collapse-item" href="{{route('facebook.index')}}"><i class="far fa-check-circle pr-3"></i>Posts</a>
                         </div>
                     </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+
+                <!-- Nav Item - Shop Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"
+                       aria-expanded="true" aria-controls="collapseVacatures">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Job Offers</span>
+                    </a>
+                    <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Job Offers</a>
+                        </div>
+                    </div>
+                    <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
+                        </div>
+                    </div>
+
                 </li>
 
 

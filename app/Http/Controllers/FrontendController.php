@@ -11,6 +11,7 @@ use App\Models\Product;
 use App\Models\ProductCategory;
 use App\Models\ProductColor;
 use App\Models\Review;
+use App\Models\Vacature;
 use App\Models\Wishlist;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
@@ -65,6 +66,13 @@ class FrontendController extends Controller
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->paginate(6);
         $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
         return view('frontend.blog', compact('posts', 'footer_posts'));
+    }
+
+    public function vacatures(){
+        $vacatures = Vacature::latest()->paginate(1);
+        $timeNow = Carbon::now()->toDateString();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        return view('frontend.vacatures', compact( 'footer_posts', 'vacatures'));
     }
 
 

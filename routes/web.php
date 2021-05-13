@@ -34,6 +34,7 @@ Route::get('/promo/selector/{id}', 'App\Http\Controllers\HomeController@promo_se
 
 Route::get('/login_admin', [App\Http\Controllers\LoginController::class, 'index'])->name('loginpage');
 Route::get('/shop', 'App\Http\Controllers\FrontendController@index')->name('shop');
+Route::get('/vacatures', 'App\Http\Controllers\FrontendController@vacatures')->name('vacatures');
 Route::get('/products/brand/{id}', 'App\Http\Controllers\FrontendController@productsPerBrand')->name('products-Per-Brand');
 Route::get('/products/category/{id}', 'App\Http\Controllers\FrontendController@productsPerCategory')->name('products-Per-Category');
 Route::post('/updataPrice', 'App\Http\Controllers\FrontendController@updatePrice');
@@ -104,7 +105,11 @@ Route::post('admin/newsletter', 'App\Http\Controllers\AdminReadersController@sto
 
 // Backend Customer
 Route::group(['prefix'=>'admin', 'middleware'=>['auth', 'verified']], function(){
+    Route::resource('/vacatures', App\Http\Controllers\AdminVacaturesController::class);
+    Route::get('vacatures/restore/{id}', 'App\Http\Controllers\AdminVacaturesController@vacatureRestore')->name('admin.vacatureRestore');
+
     Route::resource('/facebook', App\Http\Controllers\AdminFacebookController::class);
+    Route::get('facebook/restore/{id}', 'App\Http\Controllers\AdminFacebookController@facebookRestore')->name('admin.facebookRestore');
     Route::post('/newsletter/send', 'App\Http\Controllers\AdminNewslettersController@newsletter_send_email')->name('newsletter_send_email');
     Route::resource('/newsletters', App\Http\Controllers\AdminNewslettersController::class);
     Route::resource('/faqs', App\Http\Controllers\AdminFAQSController::class);

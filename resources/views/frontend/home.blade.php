@@ -63,7 +63,7 @@
             <div class="col-md-10 offset-md-1">
                 <div class="row">
                     <div class="col-md-8 offset-md-2 my-5">
-                        <h2 class="text-center">Scroll Away In My Facebook Feed</h2>
+                        <h2 class="text-center">My Facebook Feed</h2>
                         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
                             necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
                             optio quibusdam sunt tenetur voluptate voluptates voluptatibus!

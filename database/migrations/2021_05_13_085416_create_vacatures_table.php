@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFacebooksTable extends Migration
+class CreateVacaturesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateFacebooksTable extends Migration
      */
     public function up()
     {
-        Schema::create('facebooks', function (Blueprint $table) {
+        Schema::create('vacatures', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('code');
+            $table->string('profile');
+            $table->text('offer');
+            $table->text('duties');
+            $table->text('remarque');
             $table->timestamps();
             $table->softDeletes();
         });
@@ -29,6 +32,6 @@ class CreateFacebooksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('facebooks');
+        Schema::dropIfExists('vacatures');
     }
 }

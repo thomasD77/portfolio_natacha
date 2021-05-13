@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Facebook;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AdminFacebookController extends Controller
 {
@@ -15,7 +16,7 @@ class AdminFacebookController extends Controller
     public function index()
     {
         //
-        $facebook = Facebook::latest()->paginate(10);
+        $facebook = Facebook::withTrashed()->latest()->paginate(10);
         return view('admin.facebook.index', compact('facebook'));
     }
 
@@ -67,6 +68,8 @@ class AdminFacebookController extends Controller
     public function edit($id)
     {
         //
+        $facebook = Facebook::findOrFail($id);
+        return view('admin.facebook.edit', compact('facebook'));
     }
 
     /**
@@ -79,6 +82,12 @@ class AdminFacebookController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $facebook = Facebook::findOrFail($id);
+        $facebook->title= $request->title;
+        $facebook->code = $request->code;
+        $facebook->update();
+
+        return redirect('admin/facebook');
     }
 
     /**
@@ -90,5 +99,19 @@ class AdminFacebookController extends Controller
     public function destroy($id)
     {
         //
+        $facebook = facebook::findOrFail($id);
+        $facebook->delete();
+        Session::flash('facebook_message', $facebook->title . ' was deleted');
+        return redirect('/admin/facebook');
+    }
+
+    public function facebookRestore($id)
+    {
+
+        $facebook = facebook::onlyTrashed()->findOrFail($id);
+        Session::flash('facebook_message', $facebook->title . ' was restored');
+        $facebook->restore();
+
+        return redirect('admin/facebook');
     }
 }

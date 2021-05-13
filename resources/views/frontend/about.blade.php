@@ -44,43 +44,21 @@
                         provident ratione recusandae sequi sint.</p>
                 </div>
             </div>
-            <div class="col-md-8 offset-md-2 mb-5">
+            <div class="col-md-8 offset-md-2 my-5">
                 <div class="row">
-                    <h2 id="bevoegdheden" class="my-3">Wat zijn Silke haar bevoegdheden?</h2>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Klimaat</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Milieuvervuiling gradient.jpg')}}" alt="milieu">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Milieu</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Migratie en asiel gradient.jpg')}}" alt="mens">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Mens</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Kinderen en jongeren gradient.jpg')}}" alt="kinderen">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Kinderen</h3>
-                    </div>
-
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Cultuur en media gradient.jpg')}}" alt="Cultuur">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Cultuur</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Economie gradient.jpg')}}" alt="Economie">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Economie</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Dierenwelzijn gradient.jpg')}}" alt="Dierenwelzijn">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Dierenwelzijn</h3>
-                    </div>
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
-                        <img class="img-fluid" src="{{asset('images/frontend/Belastingen gradient.jpg')}}" alt="belastingen">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Belastingen</h3>
-                    </div>
-
+                    <section id="bestuursakkoord" class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="row">
+                                    <h2 class="text-center">Lees hier het Bestuursakkoord</h2>
+                                    <div class="bg-white py-2 collapse-inner rounded">
+                                        <iframe frameborder="0" src="{{asset('images/Bestuursakkoord.pdf')}}"
+                                                name="iframe_a" height="600px" width="100%" title="Iframe Example"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>

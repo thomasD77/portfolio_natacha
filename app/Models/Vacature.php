@@ -6,13 +6,16 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Facebook extends Model
+class Vacature extends Model
 {
     use HasFactory;
     use SoftDeletes;
 
     protected $fillable = [
         'title',
-        'code'
+        'offer',
+        'profile',
+        'duties',
+        'remarque'
     ];
 }
