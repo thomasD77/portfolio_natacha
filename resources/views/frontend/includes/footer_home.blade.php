@@ -66,7 +66,7 @@
                     <h3 class="mb-4">Blog</h3>
                     @foreach($footer_posts as $post)
                         <div class="row">
-                            <div class="col-3 col-md-1 col-lg-3"><img class="img-fluid" src="{{asset('images/frontend/logo_footer_groen.jpg')}}" alt=""></div>
+                            <div class="col-3 col-md-1 col-lg-3"><img class="img-fluid" src="{{asset('images/frontend/logo_footer_groen2.jpg')}}" alt=""></div>
                             <a class="text-decoration-none text-dark col-9 col-md-11 col-lg-9" href="{{route('post', $post->slug)}}">
                                 <p class="newsstyle text-uppercase">{{$post->title}}</p></a>
                         </div>

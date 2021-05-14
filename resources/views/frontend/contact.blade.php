@@ -37,7 +37,7 @@
     </section>
 
 
-    <div id="credits" class="row">
+    <div id="credits" class="row custom">
         <div class="col-12 col-lg-10 offset-lg-1">
             <div class="row">
                 <div class="col-md-6">

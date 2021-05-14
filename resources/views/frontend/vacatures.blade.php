@@ -1,7 +1,7 @@
 @extends('layouts.frontend_template')
 @section('content')
     <main>
-    <div class="col-md-8 offset-md-2">
+    <div class="col-md-8 offset-md-2 mt-5">
         <div class="row">
                 <div id="vacatures">
                     <h2 class="text-uppercase text-center my-4">Onze Vacatures voor jouw</h2>
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 @endforeach
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center mt-5">
                     {{$vacatures->links()}}
                 </div>
             </div>

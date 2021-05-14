@@ -8,7 +8,7 @@
         </div>
     </div>
 <main>
-   <section class="container-fluid my-5">
+   <section class="container-fluid my-5 py-5">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </h1>
@@ -21,7 +21,7 @@
         </div>
     </section>
 
-    <section id="facebook-scroll" class="container-fluid my-5">
+    <section id="facebook-scroll" class="container-fluid custom">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="row">
@@ -64,7 +64,7 @@
         </div>
     </section>
 
-    <section id="facebook-post" class="container-fluid my-5">
+    <section id="facebook-post" class="container-fluid custom">
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div class="row">
@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <section class="container-fluid" id="speerpunten" >
+    <section class="container-fluid custom" id="speerpunten">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="row">
@@ -237,7 +237,7 @@
                 </div>
             </div>
         </div>
-        <div id="speer"></div>
+        <div id="speer" class="mb-5"></div>
     </section>
 
 

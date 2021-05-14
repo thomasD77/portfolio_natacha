@@ -12075,8 +12075,9 @@ h1, .h1 {
   color: #FFFFFF;
 }
 
-#speerpunten p {
-  font-size: 1.2rem;
+.custom {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 /********************************************* ABOUT US **************************************************
