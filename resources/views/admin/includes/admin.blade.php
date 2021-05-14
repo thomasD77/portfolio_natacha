@@ -125,7 +125,7 @@
                                         </div>
                                     <div class="card-title">
                                         <p class="my-0">Here we can upload a new file</p>
-                                        <p class="my-0">Attention! Only PDF-Files are allowed.</p>
+                                        @include('admin.includes.form_error')
                                     </div>
                                     <p class="card-text">
                                         @if($agreements)

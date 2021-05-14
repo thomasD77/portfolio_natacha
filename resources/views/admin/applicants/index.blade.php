@@ -3,7 +3,6 @@
 
     <div class="d-flex justify-content-between my-4">
         <h1><span class="badge mosgroen display-1 shadow"><i class="fas fa-applicants mr-2"></i>Applicants</span></h1>
-        <h3><span class="badge bg-dark display-1 shadow my-2"><i class=" fas fa-plus text-white"></i><a class="text-white text-decoration-none" href="{{route('applicants.create')}}">Add New</a></span></h3>
     </div>
 
     @if(Session::has('applicant_message'))

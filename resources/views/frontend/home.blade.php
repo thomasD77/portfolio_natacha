@@ -85,7 +85,7 @@
                         <p class="text-center">
                         </p>
                     </div>
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-around">
                         @foreach($facebook as $post)
                             <div class="col-md-4">
                                 {!! $post->code !!}

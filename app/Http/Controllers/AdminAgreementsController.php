@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AgreementRequest;
 use App\Models\Agreement;
 use Illuminate\Http\Request;
 
@@ -33,7 +34,7 @@ class AdminAgreementsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AgreementRequest $request)
     {
         //
 
