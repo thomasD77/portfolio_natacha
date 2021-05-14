@@ -22,7 +22,6 @@
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
             <th scope="col">Deleted</th>
-            <th scope="col">Actions</th>
         </tr>
         </thead>
         <tbody>
@@ -49,7 +48,7 @@
                             {!! Form::close() !!}
                             @endif
                     </td>
-                    <td>  <a class="btn btn-dark" href="{{route('applicants.show', $applicant->id)}}">Show</a></td>
+                    <td><a class="btn btn-dark" href="{{route('applicants.show', $applicant->id)}}"><i class="fas fa-eye"></i></a></td>
                 </tr>
             @endforeach
         @endif

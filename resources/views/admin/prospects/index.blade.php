@@ -18,7 +18,6 @@
             <th scope="col">Message</th>
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
-            <th scope="col">Action</th>
             <th scope="col">Deleted</th>
         </tr>
         </thead>
@@ -33,11 +32,6 @@
                     <td>Message from Prospect</td>
                     <td>{{$prospect->created_at->diffForHumans()}}</td>
                     <td>{{$prospect->updated_at->diffForHumans()}}</td>
-                    <td>
-                        @if($prospect->deleted_at == null)
-                        <a class="btn btn-success" href="{{route('prospects.show', $prospect->id)}}">Show</a>
-                        @endif
-                    </td>
                     <td>{{$prospect->deleted_at}}</td>
                     <td>
                         @if($prospect->deleted_at != null)
@@ -51,6 +45,11 @@
                             {!! Form::close() !!}
                         @endif
                     </td>
+                    <td>
+                    @if($prospect->deleted_at == null)
+                        <td><a class="btn btn-dark" href="{{route('prospects.show', $prospect->id)}}"><i class="fas fa-eye"></i></a></td>
+                        @endif
+                        </td>
                 </tr>
             @endforeach
         @endif
