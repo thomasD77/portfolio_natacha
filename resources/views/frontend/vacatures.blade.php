@@ -3,7 +3,7 @@
     <main>
     <div class="col-md-8 offset-md-2">
         <div class="row">
-                <div>
+                <div id="vacatures">
                     <h2 class="text-uppercase text-center my-4">Onze Vacatures voor jouw</h2>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolor
                         doloribus earum eum ex harum porro quaerat, rerum veniam. Alias beatae dolor eos ipsam
@@ -14,6 +14,7 @@
                     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Solliciteer hier
                     </button>
+
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -49,6 +50,10 @@
                                         {!! Form::date('birthdate',null,['class'=>'form-control']) !!}
                                     </div>
                                     <div class="form-group">
+                                        {!! Form::label('job', 'Job/function you would like:') !!}
+                                        {!! Form::text('job',null,['class'=>'form-control']) !!}
+                                    </div>
+                                    <div class="form-group">
                                         {!! Form::label('remarque', 'What else do we need to know about you:') !!}
                                         {!! Form::textarea('remarque',null,['class'=>'form-control']) !!}
                                     </div>
@@ -65,19 +70,40 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 mx-auto my-3">
+                @include('admin.includes.form_error_applicant')
+            </div>
+            <div>
+                @if(Session::has('applicant_message'))
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        <h4 class="alert-heading">Bedankt!</h4>
+                        <p class="alert-success">Uw sollicitatie staat klaar voor behandeling.</p>
+                        <hr>
+                    </div>
+                @endif
+            </div>
             <div class="col-md-10 mx-auto my-5">
                 @foreach($vacatures as $vacature)
                     <div class="card shadow my-3" >
                         <div class="card-body">
                             <h2 class="card-text text-center my-3 bg-limoengroen fw-bold p-2 rounded">{{$vacature->title}}</h2>
+                            @if($vacature->offer)
                             <h4 class="card-title mosgroen fw-bold">Wat Bieden We?:</h4>
-                            <p class="card-text">{{$vacature->offer}}</p>
+                                <p class="card-text">{{$vacature->offer}}</p>
+                            @endif
+                            @if($vacature->profile)
                             <h4 class="card-title mosgroen fw-bold">Jouw Profiel:</h4>
-                            <p class="card-text ">{{$vacature->profile}}</p>
+                                <p class="card-text ">{{$vacature->profile}}</p>
+                            @endif
+                            @if($vacature->duties)
                             <h4 class="card-title mosgroen fw-bold">Takenpakket:</h4>
                             <p class="card-text">{{$vacature->duties}}</p>
+                            @endif
+                            @if($vacature->remarque)
                             <h4 class="card-title mosgroen fw-bold">Opmerkingen:</h4>
                             <p class="card-text">{{$vacature->remarque}}</p>
+                            @endif
                             <hr>
                             <p class="card-text mosgroen fw-bold">Created:{{$vacature->created_at->diffForHumans()}}</p>
                             <p class="card-text mosgroen fw-bold">Updated:{{$vacature->updated_at->diffForHumans()}}</p>

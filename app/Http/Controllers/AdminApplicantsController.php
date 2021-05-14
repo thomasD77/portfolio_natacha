@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ApplicantRequest;
 use App\Models\Applicant;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AdminApplicantsController extends Controller
 {
@@ -35,7 +37,7 @@ class AdminApplicantsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ApplicantRequest $request)
     {
         //
         $applicant = new applicant();
@@ -46,6 +48,7 @@ class AdminApplicantsController extends Controller
         $applicant->start_date= $request->start_date;
         $applicant->birthdate= $request->birthdate;
         $applicant->remarque= $request->remarque;
+        $applicant->job= $request->job;
 
         if($file = $request->file('file')){
             $name = time(). $file->getClientOriginalName();
@@ -54,6 +57,7 @@ class AdminApplicantsController extends Controller
         }
 
         $applicant->save();
+        Session::flash('applicant_message');
 
         return redirect()->back();
     }

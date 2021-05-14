@@ -49,7 +49,7 @@
                                     <h2 class="text-center">Lees hier het Bestuursakkoord</h2>
                                     <div class="bg-white py-2 collapse-inner rounded">
                                         @foreach($agreements as $agreement)
-                                        <iframe frameborder="0" src="{{$agreement->file ? asset('images/agreements') .$agreement->file : 'http://placehold.it/62x62'}}"
+                                        <iframe class="shadow" frameborder="0" src="{{$agreement->file ? asset('images/agreements') .$agreement->file : 'http://placehold.it/62x62'}}"
                                                 name="iframe_a" height="600px" width="100%" title="Iframe Example"></iframe>
                                         @endforeach
                                     </div>

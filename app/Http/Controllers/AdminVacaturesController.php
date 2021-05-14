@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\VacaturesRequest;
 use App\Models\Vacature;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -38,7 +39,7 @@ class AdminVacaturesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(VacaturesRequest $request)
     {
         //
         $vacature = new Vacature();
@@ -85,7 +86,7 @@ class AdminVacaturesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(VacaturesRequest $request, $id)
     {
         //
         $vacature = Vacature::findOrFail($id);

@@ -23,6 +23,7 @@ class CreateApplicantsTable extends Migration
             $table->string('phone');
             $table->string('file')->nullable();
             $table->string('remarque');
+            $table->string('job');
             $table->timestamps();
         });
     }

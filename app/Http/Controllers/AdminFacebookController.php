@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\FacebookRequest;
 use App\Models\Facebook;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -37,7 +38,7 @@ class AdminFacebookController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(FacebookRequest $request)
     {
         //
         $facebook = new Facebook();
@@ -79,7 +80,7 @@ class AdminFacebookController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(FacebookRequest $request, $id)
     {
         //
         $facebook = Facebook::findOrFail($id);

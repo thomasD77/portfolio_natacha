@@ -1,7 +1,7 @@
 <body class="pt-0">
 <header class="container-fluid">
     <div class="row">
-        <nav class="navbar navbar-expand-lg pe-0 pb-0 pb-lg-2 fixed-top">
+        <nav class="navbar navbar-expand-lg pe-0 pb-0 pb-lg-2 fixed-top d-flex flex-column">
             <div class="col-12 col-lg-10 offset-lg-1 d-md-flex align-items-center px-0">
                 <div class="navbar-header d-flex justify-content-between align-items-center  justify-content-lg-start">
                     <div class="d-none d-lg-block w-15">
@@ -47,6 +47,17 @@
                            href="https://www.instagram.com/natachawaldmann.be/" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
+            </div>
+            <div>
+                @include('admin.includes.form_error_applicant')
+                @if(Session::has('mail_message'))
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        <h4 class="alert-heading">Bedankt!</h4>
+                        <p class="alert-success">Uw mail is succesvol verstuurd.</p>
+                        <hr>
+                    </div>
+                @endif
             </div>
         </nav>
     </div>

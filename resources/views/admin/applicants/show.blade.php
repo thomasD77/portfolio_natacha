@@ -18,6 +18,8 @@
                     <p class="card-text">{{$applicant->start_date}}</p>
                     <h4 class="card-title">Birthdate:</h4>
                     <p class="card-text">{{$applicant->birthdate}}</p>
+                    <h4 class="card-title">Job/function they want:</h4>
+                    <p class="card-text">{{$applicant->job}}</p>
                     <h4 class="card-title">Remarque:</h4>
                     <p class="card-text">{{$applicant->remarque}}</p>
                     <h4 class="card-title">CV:</h4>

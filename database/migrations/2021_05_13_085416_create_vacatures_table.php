@@ -16,10 +16,10 @@ class CreateVacaturesTable extends Migration
         Schema::create('vacatures', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('profile');
-            $table->text('offer');
-            $table->text('duties');
-            $table->text('remarque');
+            $table->text('profile')->nullable();
+            $table->text('offer')->nullable();
+            $table->text('duties')->nullable();
+            $table->text('remarque')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

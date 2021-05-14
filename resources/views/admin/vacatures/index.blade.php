@@ -20,7 +20,6 @@
             <th scope="col">Created</th>
             <th scope="col">Updated</th>
             <th scope="col">Deleted</th>
-            <th scope="col">Actions</th>
         </tr>
         </thead>
         <tbody>

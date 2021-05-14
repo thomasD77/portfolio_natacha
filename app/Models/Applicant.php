@@ -18,6 +18,7 @@ class Applicant extends Model
         'phone',
         'file',
         'remarque',
+        'job',
     ];
 }
 

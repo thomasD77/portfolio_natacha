@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\EmailRequest;
 use App\Mail\ContactMail;
 use App\Models\Email;
 use App\Models\Prospect;
@@ -37,7 +38,7 @@ class EmailsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(EmailRequest $request)
     {
         $data = [
             'name' => $request->name,
@@ -48,6 +49,7 @@ class EmailsController extends Controller
 
         Email::create($data);
         Mail::to('info@silkebeirens.be')->send(new ContactMail($data));
+        Session::flash('mail_message');
         return redirect()->back();
     }
 

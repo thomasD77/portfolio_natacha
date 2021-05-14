@@ -9,47 +9,86 @@
             <div class="col-md-8 offset-md-2">
                 @if(Session::has('contactform_message'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         <h4 class="alert-heading">Bedankt!</h4>
                         <p class="alert-success">Het contactforumlier staat klaar voor behandeling.</p>
                         <hr>
                         <p class="mb-0 alert-success">{{session('contactform')}}</p>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidde="true">&times;</span>
-                        </button>
                     </div>
                 @endif
             </div>
         </div>
     </section>
 
-    <div id="credits" class="row">
-        <div class="col-12 col-lg-6 offset-lg-3">
-            <div class="row d-flex">
-                <div class="col-12 col-lg-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 w-50 groengroen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                    </svg>
-                    <p class="mb-0">Vindictivelaan 1</p>
-                    <p>8400 Oostende</p>
-                </div>
-                <div class="col-12 col-lg-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 w-50 groengroen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    <p class="mb-0">T 059 25 84 59</p>
-                </div>
-                <div class="col-12 col-lg-4 text-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6  w-50 groengroen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                    </svg>
-                    <p class="mb-0">Silke.Beirens@oostende.be</p>
+    <section class="container-fluid my-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="row">
+                    <iframe width="100"
+                            height="500"
+                            src="https://www.youtube.com/embed/r9UssSvdC8Q?autoplay=1&mute=1&controls=0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="contactforumlier_anchor"></div>
-    @include('frontend.includes.contactformulier')
+
+    <div id="credits" class="row">
+        <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mt-lg-5">Wilt u graag contact met ons opnemen?</h2>
+                    <p class="mb-lg-4">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
+                        we contact met u op.</p>
+                    @include('admin.includes.form_error')
+                    <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
+                        @csrf
+                        <div  class="row">
+                            <div class="col-12">
+                                <input  name="name" type="text" class="form-control my-1 styleinput shadow border-0" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="col-12">
+                                <input id="input2" name="email" type="text" class="form-control my-1 shadow border-0" placeholder="Your Email" aria-label="email" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="col-12">
+                                <input id="input3" name="subject" type="text" class="form-control my-1 shadow border-0" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-12">
+                                <textarea id="input4" name="message" class="form-control textfield shadow border-0" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mt-3 mb-5">
+                                <button type="submit" class="button rounded">Send to Us</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <div class="text-center my-2">
+                            <i class="fas fa-map-marker-alt fa-5x groengroen my-2"></i>
+                            <p class="mb-0">Vindictivelaan 1</p>
+                            <p>8400 Oostende</p>
+                        </div>
+                        <div class="text-center my-2">
+                            <i class="fas fa-mobile-alt fa-5x groengroen my-2"></i>
+                            <p class="mb-0">T 059 25 84 59</p>
+                        </div>
+                        <div class="text-center my-2">
+                            <i class="far fa-envelope-open fa-5x groengroen my-2"></i>
+                            <p class="mb-0">natacha.waldmann@oostende.be</p>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     </main>
 

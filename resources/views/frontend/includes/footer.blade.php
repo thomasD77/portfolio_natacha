@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-12 col-xl-3 mb-5">
                     <h3 class="text-uppercase mb-4">Natacha Waldmann</h3>
-                    <p>Schepen Mens & Milieu</p>
-                    <p>Silke.Beirens@oostende.be</p>
+                    <p>Schepen van Zorg, Welzijn & Onderwijs</p>
+                    <p>natacha.waldmann@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
                     <!-- Button trigger modal -->
@@ -52,15 +52,15 @@
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">About Us</h3>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Silke Natacha?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Natacha?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Wat zijn Natacha haar bevoegdheden?</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bestuursakkoord"])}}"><p>Bestuursakkoord</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('home', ["#speer"])}}"><p>Speerpunten</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact Us</h3>
-                    <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact informatie</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('contact', ["#contactforumlier_anchor"])}}"><p>Contact formulier</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('contact', ["#FAQ"])}}"><p>FAQ</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Blog</h3>
