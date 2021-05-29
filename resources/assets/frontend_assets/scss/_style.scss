@@ -267,15 +267,15 @@ h1{
 
 
 .custom{
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
 /********************************************* ABOUT US **************************************************
 **********************************************************************************************************/
 
-#about{
+#about, #bevoegdheden, #bestuursakkoord{
     background-color: #ffffff;
     h1{
         font-family: RobotoBold;
@@ -292,6 +292,10 @@ h1{
     p{
         font-family: RobotoRegular;
     }
+    .speerpunt:hover{
+        transform: scale(1.2, 1.2);
+    }
+
 }
 
 

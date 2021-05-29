@@ -55,12 +55,12 @@
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Natacha?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#bestuursakkoord"])}}"><p>Bestuursakkoord</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('home', ["#speer"])}}"><p>Speerpunten</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Speerpunten</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact Us</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>
+                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Stage</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Blog</h3>

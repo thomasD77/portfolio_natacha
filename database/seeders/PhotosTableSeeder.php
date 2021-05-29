@@ -20,7 +20,7 @@ class PhotosTableSeeder extends Seeder
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
         DB::table('photos')->insert(['file' => 'groen_logo.PNG', 'created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
-        DB::table('photos')->insert(['file' => 'silke.jpg','created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
+        DB::table('photos')->insert(['file' => 'oostende.PNG','created_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at'=>Carbon::now()->format('Y-m-d H:i:s'),]);
     }
 }

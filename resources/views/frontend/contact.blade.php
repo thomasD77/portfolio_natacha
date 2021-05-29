@@ -1,6 +1,12 @@
 @extends('layouts.frontend_template')
 @section('content')
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 d-flex flex-column px-0">
+                <img class="img-fluid " src="{{asset('images/frontend/bg-natacha.png')}}" alt="">
+            </div>
+        </div>
+    </div>
 
 <main id="contact" class="container-fluid">
 
@@ -20,7 +26,7 @@
         </div>
     </section>
 
-    <section class="container-fluid my-5">
+    {{--<section class="container-fluid my-5">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="row">
@@ -34,15 +40,30 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
 
     <div id="credits" class="row custom">
         <div class="col-12 col-lg-10 offset-lg-1">
             <div class="row">
-                <div class="col-md-6">
-                    <h2 class="mt-lg-5">Wilt u graag contact met ons opnemen?</h2>
-                    <p class="mb-lg-4">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
+                <div class="d-flex justify-content-around">
+                    <div class="text-center my-2">
+                        <i class="fas fa-map-marker-alt fa-5x groengroen my-2"></i>
+                        <p class="mb-0">Vindictivelaan 1</p>
+                        <p>8400 Oostende</p>
+                    </div>
+                    <div class="text-center my-2">
+                        <i class="fas fa-mobile-alt fa-5x groengroen my-2"></i>
+                        <p class="mb-0">T 059 25 84 59</p>
+                    </div>
+                    <div class="text-center my-2">
+                        <i class="far fa-envelope-open fa-5x groengroen my-2"></i>
+                        <p class="mb-0">natacha.waldmann@oostende.be</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="mt-lg-5 text-center">Wilt u graag contact met ons opnemen?</h2>
+                    <p class="mb-lg-4 text-center">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
                         we contact met u op.</p>
                     @include('admin.includes.form_error')
                     <form class="row mb-0" name="contactformulier" action="{{action('App\Http\Controllers\ContactController@store')}}" method="post">
@@ -69,21 +90,6 @@
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="col-md-6 d-flex flex-column justify-content-center">
-                        <div class="text-center my-2">
-                            <i class="fas fa-map-marker-alt fa-5x groengroen my-2"></i>
-                            <p class="mb-0">Vindictivelaan 1</p>
-                            <p>8400 Oostende</p>
-                        </div>
-                        <div class="text-center my-2">
-                            <i class="fas fa-mobile-alt fa-5x groengroen my-2"></i>
-                            <p class="mb-0">T 059 25 84 59</p>
-                        </div>
-                        <div class="text-center my-2">
-                            <i class="far fa-envelope-open fa-5x groengroen my-2"></i>
-                            <p class="mb-0">natacha.waldmann@oostende.be</p>
-                        </div>
                 </div>
             </div>
 

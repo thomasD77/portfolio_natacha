@@ -31,7 +31,7 @@
         <tbody>
         @if($users)
             @foreach($users as $user)
-                @if($user->email != 'thomas.demeulenaere@hotmail.com')
+                {{--@if($user->email != 'thomas.demeulenaere@hotmail.com')--}}
                 <tr>
                     <td>{{$user->id}}</td>
                     <td>
@@ -58,7 +58,7 @@
                             @endif
                     </td>
                 </tr>
-                @endif
+                {{--@endif--}}
             @endforeach
         @endif
         </tbody>

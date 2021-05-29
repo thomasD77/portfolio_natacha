@@ -25,7 +25,7 @@ class AgreementRequest extends FormRequest
     {
         return [
             //
-            'title'=>'required|string',
+            'title'=>'required',
             'file' => 'required|mimes:pdf',
         ];
     }

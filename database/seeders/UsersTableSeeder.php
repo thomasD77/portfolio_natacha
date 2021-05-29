@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
         //
         DB::table('users')->insert([
             'name'=>'Thomas',
-            'email'=>'thomas.demeulenaere@hotmail.com',
+            'email'=>'admin@test.be',
             'email_verified_at'=>Carbon::now()->format('Y-m-d H:i:s'),
             'photo_id'=> 1,
             'password'=>bcrypt(12345678),

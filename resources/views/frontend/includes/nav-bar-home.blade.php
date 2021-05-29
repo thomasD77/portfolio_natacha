@@ -31,7 +31,7 @@
                             <a class="nav-link pb-1 mx-2" href="{{route('blog')}}">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">VACATURES</a>
+                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">STAGE</a>
                         </li>
                     </ul>
                 </div>

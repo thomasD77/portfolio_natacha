@@ -124,7 +124,7 @@
                 </div>
             </li>--}}
 
-                <!-- Divider -->
+                {{--<!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
 
                 <!-- Nav Item - Facebook Collapse Menu -->
@@ -139,7 +139,7 @@
                             <a class="collapse-item" href="{{route('facebook.index')}}"><i class="far fa-check-circle pr-3"></i>Posts</a>
                         </div>
                     </div>
-                </li>
+                </li>--}}
 
                 <!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
@@ -270,7 +270,7 @@
                 </div>
             </li>--}}
 
-            <!-- Divider -->
+            {{--<!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
             <!-- Nav Item - Facebook Collapse Menu -->
@@ -285,7 +285,7 @@
                         <a class="collapse-item" href="{{route('facebook.index')}}"><i class="far fa-check-circle pr-3"></i>Posts</a>
                     </div>
                 </div>
-            </li>
+            </li>--}}
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

@@ -12076,29 +12076,33 @@ h1, .h1 {
 }
 
 .custom {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 /********************************************* ABOUT US **************************************************
 **********************************************************************************************************/
-#about {
+#about, #bevoegdheden, #bestuursakkoord {
   background-color: #ffffff;
 }
-#about h1, #about .h1 {
+#about h1, #about .h1, #bevoegdheden h1, #bevoegdheden .h1, #bestuursakkoord h1, #bestuursakkoord .h1 {
   font-family: RobotoBold;
 }
-#about h2, #about .h2 {
+#about h2, #about .h2, #bevoegdheden h2, #bevoegdheden .h2, #bestuursakkoord h2, #bestuursakkoord .h2 {
   font-size: 1.2rem;
   font-family: RobotoBold;
 }
-#about h3, #about .h3 {
+#about h3, #about .h3, #bevoegdheden h3, #bevoegdheden .h3, #bestuursakkoord h3, #bestuursakkoord .h3 {
   font-size: 1.1rem;
   font-family: RobotoBold;
   color: #004c45;
 }
-#about p {
+#about p, #bevoegdheden p, #bestuursakkoord p {
   font-family: RobotoRegular;
+}
+#about .speerpunt:hover, #bevoegdheden .speerpunt:hover, #bestuursakkoord .speerpunt:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 /********************************************* Contact **************************************************

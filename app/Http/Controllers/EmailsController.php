@@ -48,7 +48,7 @@ class EmailsController extends Controller
         ];
 
         Email::create($data);
-        Mail::to('info@silkebeirens.be')->send(new ContactMail($data));
+        Mail::to('thomas.demeulenaere@hotmail.com')->send(new ContactMail($data));
         Session::flash('mail_message');
         return redirect()->back();
     }
