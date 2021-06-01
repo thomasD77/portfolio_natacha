@@ -43,24 +43,29 @@
     </section>--}}
 
 
-    <div id="credits" class="row custom">
-        <div class="col-12 col-lg-10 offset-lg-1">
+
+
+    <seciton id="credits" class="row custom">
+        <div class="col-lg-10 offset-lg-1">
             <div class="row">
-                <div class="d-flex flex-column justify-md-content-around mb-3">
-                    <div class="col-12 text-center my-2">
+                <div class="d-md-flex justify-md-content-around mb-3">
+                    <div class="col-12 col-md-4 text-center my-2">
                         <i class="fas fa-map-marker-alt fa-5x groengroen my-2"></i>
                         <p class="mb-0">Vindictivelaan 1</p>
                         <p>8400 Oostende</p>
                     </div>
-                    <div class="col-12 text-center my-2">
+                    <div class="col-12 col-md-4 text-center my-2">
                         <i class="fas fa-mobile-alt fa-5x groengroen my-2"></i>
                         <p class="mb-0">T 059 25 84 59</p>
                     </div>
-                    <div class="col-12 text-center my-2">
+                    <div class="col-12  col-md-4 text-center my-2">
                         <i class="far fa-envelope-open fa-5x groengroen my-2"></i>
                         <p class="mb-0">natacha.waldmann@oostende.be</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
                 <div>
                     <h2 class="mt-lg-5 text-center">Wilt u graag contact met ons opnemen?</h2>
                     <p class="mb-lg-4 text-center">Vul hierbeneden ons contactformulier in. <br> Na het behandelen van uw bericht nemen
@@ -92,9 +97,8 @@
                     </form>
                 </div>
             </div>
-
         </div>
-    </div>
+    </seciton>
 
     </main>
 
