@@ -1,5 +1,5 @@
 @extends('layouts.frontend_template')
-@section('content')
+@section('post')
 
 <div class="container-fluid">
     <div class="row">
