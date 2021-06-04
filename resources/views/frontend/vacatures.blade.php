@@ -70,9 +70,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mx-auto my-3">
-                @include('admin.includes.form_error_applicant')
-            </div>
             <div>
                 @if(Session::has('applicant_message'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
