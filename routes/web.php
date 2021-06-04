@@ -25,9 +25,6 @@ Route::get('auth/{driver}', [SocialProviderController::class, 'redirectToProvide
 Route::get('auth/{driver}/callback', [SocialProviderController::class, 'handleProviderCallback']);
 
 // Frontend
-Route::get('/', function () {
-    return view('layouts.home');
-});
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home')/*->middleware('verified')*/;
 Route::get('/promo/selector/{id}', 'App\Http\Controllers\HomeController@promo_selector')->name('productsPerPromo');
 
