@@ -1,4 +1,4 @@
-@extends('layouts.frontend_template')
+@extends('layouts.frontend_post_template')
 @section('post')
 
 <div class="container-fluid">

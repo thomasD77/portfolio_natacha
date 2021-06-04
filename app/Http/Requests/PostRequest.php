@@ -28,6 +28,7 @@ class PostRequest extends FormRequest
             'title'=>'required',
             'body'=>'required',
             'photo_id' => 'required',
+            'postcategories' => 'required'
         ];
     }
 
@@ -36,6 +37,7 @@ class PostRequest extends FormRequest
             'title.required'=> 'Title is required!',
             'body.required'=>'Description is required',
             'photo_id.required'=>'Photo is required',
+            'postcategories.required' => 'Please make a category for this post first'
         ];
     }
 }
