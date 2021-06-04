@@ -43,9 +43,5 @@ class DatabaseSeeder extends Seeder
             FacebookTableSeeder::class,
             VacatureTableSeeder::class,
         ]);*/
-        $this->call([
-            PostsTableSeeder::class,
-            PostCategoriesTableSeeder::class,
-        ]);
     }
 }

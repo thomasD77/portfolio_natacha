@@ -9,7 +9,7 @@
                     <p>natacha.waldmann@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a class="button rounded text-decoration-none text-white" href="mailto:thomas.demeulenaere@hotmail.com">Email Us</a>
+                    <a class="button rounded text-decoration-none text-white" href="mailto:natacha.waldmann@oostende.be">Email Us</a>
                     {{--<!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->
