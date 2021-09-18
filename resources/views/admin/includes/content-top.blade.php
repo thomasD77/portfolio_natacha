@@ -12,8 +12,6 @@
                 <i class="fa fa-bars"></i>
             </button>
 
-            <a class="btn btn-dark" href=""><i class="fas fa-search mx-2"></i>ReadMe</a>
-
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto ">
 

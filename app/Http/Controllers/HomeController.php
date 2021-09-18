@@ -34,7 +34,7 @@ class HomeController extends Controller
         $timeNow = Carbon::now()->toDateString();
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(3)->get();
         $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
-        return view('coming_soon', compact('posts', 'footer_posts', 'facebook'));
+        return view('frontend.home', compact('posts', 'footer_posts', 'facebook'));
     }
 
 }

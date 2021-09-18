@@ -10,21 +10,6 @@
 
 <main id="contact" class="container-fluid">
 
-    <section id="contactformulier" class="mt-5">
-        <div class="row mt-5">
-            <div class="col-md-8 offset-md-2">
-                @if(Session::has('contactform_message'))
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        <h4 class="alert-heading">Bedankt!</h4>
-                        <p class="alert-success">Het contactforumlier staat klaar voor behandeling.</p>
-                        <hr>
-                        <p class="mb-0 alert-success">{{session('contactform')}}</p>
-                    </div>
-                @endif
-            </div>
-        </div>
-    </section>
 
     {{--<section class="container-fluid my-5">
         <div class="row">
@@ -41,6 +26,25 @@
             </div>
         </div>
     </section>--}}
+
+    <section>
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2">
+                <div class="row">
+                    @if(Session::has('contactform_message'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <h4 class="alert-heading">Bedankt!</h4>
+                            <p class="alert-success">Het contactforumlier staat klaar voor behandeling.</p>
+                            <hr>
+                            <p class="mb-0 alert-success">{{session('contactform')}}</p>
+
+                        </div>
+                    @endif
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -89,12 +93,14 @@
                                 <textarea id="input4" name="message" class="form-control textfield shadow border-0" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
                             </div>
                         </div>
+                        <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LcO5nUcAAAAAHgSnEkoo8xedmqoOmzkEViXAaVP"></div>
                         <div class="row">
                             <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mt-3 mb-5">
                                 <button type="submit" class="button rounded">Send to Us</button>
                             </div>
                         </div>
                     </form>
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
                 </div>
             </div>
         </div>

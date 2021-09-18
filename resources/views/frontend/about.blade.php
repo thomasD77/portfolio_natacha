@@ -11,32 +11,34 @@
                 <div class="row mt-4">
                     <img class="img-fluid mt-5 w-50 mx-auto" src="{{asset('images/frontend/natacha_about.jpg')}}" alt="NatachaWaldmann">
                     <h1 id="wie" class="my-5">Wie is Natacha Waldamnn...</h1>
-                    <p>Ik ben Natacha, getrouwd met Youri en mama van Titus, Len en Pixie. Sinds januari 2019 ben ik
-                        Schepen van Zorg, Welzijn en Onderwijs in Oostende.
-                        Van opleiding ben ik orthopedagoog en oplossingsgericht therapeut. Ik heb de afgelopen jaren
-                        vooral expertise opgebouwd in het werken met kwetsbare kinderen en jongeren en hun context .
-                        Vanuit die focus wil ik nu ook als schepen het verschil maken. Armoedebestrijding moet centraal
-                        staan de komende jaren. Maar ook onze zorg, ons onderwijs en sociale huisvesting kunnen
-                        versterkt worden.
-                        Iedereen zich thuis laten voelen in onze fantastische stad, voor minder ga ik niet. Samen kunnen
-                        we Oostende beter maken, ook jij kan daarbij helpen. Benieuwd? Volg mij ook op sociale media en
-                        blijf op de hoogte!</p>
+                    <p>Sinds 2019 ben ik Schepen van Welzijn, Zorg en Onderwijs in Oostende, een portefeuille die me
+                        nauw aan het hart ligt. Van opleiding ben ik namelijk orthopedagoge en oplossingsgericht
+                        therapeut. Na mijn studies startte ik in 2003 als leerkracht expressie in het MMI van Kortemark
+                        en gaf ik les als docent in de lerarenopleiding aan De Avondschool in Gent. Daar ben ik gebeten
+                        door de onderwijsmicrobe. Ik maakte al snel de overstap naar het Centrum voor
+                        Leerlingbegeleiding in Oostende, waar ik de vele problematieken die kinderen en jongeren in hun
+                        ontwikkeling kunnen ervaren samen met scholen en ouders mee hielp ondersteunen. In 2012 werd ik
+                        zorgdirecteur bij De Kade vzw, een organisatie in Brugge waar ik de inhoudelijke leiding had
+                        over de afdeling kinderen en jongeren met gedrags- en emotionele stoornissen (GES). Dat ben ik
+                        blijven doen tot ik schepen werd. Ik ben geboren in Oostende maar opgegroeid in Leffinge,
+                        intussen woon ik samen met mijn man Youri en mijn drie kinderen Titus, Len en Pixie in
+                        Mariakerke. </p>
 
                     <h2 id="waarom" class="my-3">Waarom in de Politiek gestapt?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquam corporis,
-                        cupiditate dicta dolores dolorum eligendi, error illum inventore ipsa itaque iusto odit
-                        provident ratione recusandae sequi sint.</p>
+                    <p>Ik kom niet uit een politiek nest, maar heb wel altijd de drang gevoeld om maatschappelijk mee
+                        dingen in beweging te zetten. Onrechtvaardigheid bestrijden is mijn motor. Tijdens mijn
+                        professionele carrière maar ook vroeger als leidster in de scouts heb ik te vaak gezien hoe
+                        kinderen die opgroeien in een kwetsbare omgeving bij voorbaat al kansloos waren. Dat aankaarten
+                        maar ook bestrijden is wat mij drijft. Politiek heeft het niet altijd onder de markt, maar is
+                        wel dé weg naar verandering en een middel dat een positieve impact kan hebben op heel wat
+                        levensdomeinen. Beslissingen die wij nemen hebben een wezenlijke invloed op de levenskwaliteit
+                        van mensen. Omdat ik echt overtuigd ben van het feit dat iedereen recht heeft op geluk, is de
+                        stap zetten naar de politiek voor mij een evidentie gebleken.
+                        Groen is een partij die verder kijkt dan de volgende verkiezingen. We streven trendbreuken na,
+                        duurzame verandering die het leven van mensen beter maakt. Stap voor stap bouwen we sinds 2019
+                        ook in Oostende mee aan een beter beleid. Onze kinderen en kleinkinderen verdienen een meer
+                        leefbare, menselijkere en gezondere stad. Dat is mijn drijfveer, en daar gaan we voor. Heb je
+                        vragen of opmerkingen? Aarzel niet om contact op te nemen!</p>
                 </div>
             </div>
         </div>
@@ -50,26 +52,22 @@
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img class="img-fluid w-75 mx-auto speerpunt" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Klimaat</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Armoede pakken we aan</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Armoedebestrijding is een topprioriteit in Oostende, op vandaag wordt nog
+                                                steeds bijna één op drie kinderen in armoede geboren, dit is een
+                                                schandvlek voor onze Stad. Om komaf te maken met het gebrek aan visie en
+                                                beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
+                                                getreden met 35 concrete acties die een trendbreuk moeten realiseren.
+                                                Meer weten? Het integrale plan vind je hier
+                                                https://www.oostende.be/armoedebeleidsplan </p>
                                         </div>
                                     </div>
                                 </div>
@@ -78,26 +76,22 @@
 
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#milieu">
                             <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Milieuvervuiling gradient.jpg')}}" alt="milieu" >
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Milieu</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Zorg</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="milieu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Oostende Onderwijsstad</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Oostende telt heel wat zorginstellingen, en engageert zich ertoe om het
+                                                zorgaanbod op elkaar af te stemmen zodat iedereen de zorg kan krijgen
+                                                waar hij nood aan heeft. Als stad richten we zelf een stuk zorg in,
+                                                zowel voor ouderen (WZC Boarebreker, WZC Lacourt, dagcentrum Wante,
+                                                palliatief dagcentrum De Kust en assistentiewoningen De Zeeparel en ’t
+                                                Staketsel) als voor jongeren via de voorzieningen voor Jongerenwelzijn
+                                                De Bolle en De Brem. https://www.oostende.be/zorg </p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,26 +100,22 @@
 
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#milieu">
                             <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Migratie en asiel gradient.jpg')}}" alt="mens">
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Mens</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Sociaal Verhuurkantoor</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="milieu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Oostende Onderwijsstad</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Wonen is een belangrijke hefboom om uit de vicieuze cirkel van armoede te
+                                                raken. Kwalitatieve en vooral betaalbare woningen aanbieden aan mensen
+                                                die het financieel niet makkelijk hebben helpt om op andere
+                                                levensdomeinen stappen te zetten. Met het SVK dragen we actief bij aan
+                                                het aanbod voor die mensen die niet terecht kunnen op de private markt
+                                                en proberen zo ook structureel de armoedeproblematiek aan te pakken.
+                                                https://www.svkbredeneoostende.be/ </p>
                                         </div>
                                     </div>
                                 </div>
@@ -134,26 +124,23 @@
 
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#mens">
                             <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Kinderen en jongeren gradient.jpg')}}" alt="kinderen">
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Kinderen</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Onderwijs</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="mens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Oostende Onderwijsstad</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Scholen zijn bij uitstek de plaats waar elk kind thuis is. Om de vinger
+                                                aan de pols te kunnen houden wat betreft de noden in onze stad zijn ze
+                                                cruciale partners. Tegelijk hebben ze soms zelf behoeftes die wat extra
+                                                omkadering vergen. De brugfigurenwerking van de Stad Oostende, dat met
+                                                het nieuwe stadsbestuur in 2019 uitgebreid werd naar het secundair
+                                                onderwijs, is een grote steun en helpt mee om problemen snel te
+                                                detecteren. Meer weten:
+                                                https://www.oostende.be/brugfiguren-onderwijs </p>
                                         </div>
                                     </div>
                                 </div>
@@ -162,26 +149,23 @@
 
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#kinderen">
                             <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Cultuur en media gradient.jpg')}}" alt="Cultuur">
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Cultuur</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Lokaal gezinsbeleid</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="kinderen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Oostende Onderwijsstad</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Kinderen zijn de volwassenen van morgen, en dus is een sterk gezinsbeleid
+                                                dé manier om te bouwen aan het Oostende van de toekomst. Het Netwerk
+                                                Huis van het Kind voorziet in een aanbod voor gezinnen met kinderen van
+                                                0 tot 18 jaar. Bij onze partners vind je informatie, advies en
+                                                ondersteuning waar nodig. Stad Oostende versterkt dat netwerk met eigen
+                                                expertise en diensten zoals de Wegwijzer, waar mensen geholpen worden om
+                                                bijvoorbeeld onderwijscheques aan te vragen of correcte informatie over
+                                                het hulpverleningsaanbod. https://www.oostende.be/huisvanhetkind </p>
                                         </div>
                                     </div>
                                 </div>
@@ -190,26 +174,24 @@
 
                         <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#cultuur">
                             <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Economie gradient.jpg')}}" alt="Economie">
-                            <h3 class="text-center text-uppercase mosgroen pb-2">Economie</h3>
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Welzijn</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="cultuur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Oostende Onderwijsstad</h5>
+                                        <div class="modal-header border-0">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>Oostende is van iedereen. Ik geloof in een stad waar elke Oostendenaar zich
-                                                thuis voelt. Maar er is nog werk. Op vandaag heeft Oostende de hoogste
-                                                armoedecijfers van alle centrumsteden en laat daarmee steden als Antwerpen
-                                                en Gent ver achter zich. Er is een trendbreuk nodig.
-                                                Groen staat voor een armoedebeleid over verschillende levensdomeinen heen.
-                                                Met een ambitieus participatietraject en een beleid rond vijf cruciale
-                                                hefbomen (onderwijs, wonen, jobs, gezondheidszorg en een menswaardig
-                                                inkomen) maken we hier werk van. Ons armoedebestrijdingsplan is noodzakelijk
-                                                en dus ambitieus. Elke inwoner van de stad wordt hier beter van, want we
-                                                zijn allemaal Oostendenaar.</p>
+                                            <p>Met de bevoegdheid Welzijn ben je in feite Schepen van Geluk. Dat geluk
+                                                nastreven bij Oostendenaars is de motor van het beleid. We investeren in
+                                                psychisch welzijn, met structurele steun voor organisaties zoals TeJo
+                                                maar ook een eerstelijnspsycholoog voor ouderen. Maar we nemen ook
+                                                initiatief voor regelmatig overleg met initiatieven binnen onze stad het
+                                                Welzijns- en Armoedeplatform en het pas opgezette netwerk Overkop.
+                                                Rechtenverkenning en -toekenning is iets waar we actief werk van maken,
+                                                om mensen maximaal te ontzorgen en hen de steun te bieden waar ze recht
+                                                op hebben. https://www.oostende.be/welzijn </p>
                                         </div>
                                     </div>
                                 </div>

@@ -141,25 +141,25 @@
                     </div>
                 </li>--}}
 
-                <!-- Divider -->
-                <hr class="sidebar-divider d-none d-md-block">
+{{--                <!-- Divider -->--}}
+{{--                <hr class="sidebar-divider d-none d-md-block">--}}
 
-                <!-- Nav Item - Vacatures Collapse Menu -->
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"
-                       aria-expanded="true" aria-controls="collapseVacatures">
-                        <i class="fas fa-briefcase"></i>
-                        <span>Job Offers</span>
-                    </a>
-                    <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>
-                        </div>
-                        <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
-                        </div>
-                    </div>
-                </li>
+{{--                <!-- Nav Item - Vacatures Collapse Menu -->--}}
+{{--                <li class="nav-item">--}}
+{{--                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"--}}
+{{--                       aria-expanded="true" aria-controls="collapseVacatures">--}}
+{{--                        <i class="fas fa-briefcase"></i>--}}
+{{--                        <span>Job Offers</span>--}}
+{{--                    </a>--}}
+{{--                    <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">--}}
+{{--                        <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                            <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>--}}
+{{--                        </div>--}}
+{{--                        <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                            <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </li>--}}
 
 
         <!-- Sidebar Message -->
@@ -291,21 +291,21 @@
             <hr class="sidebar-divider d-none d-md-block">
 
             <!-- Nav Item - Vacatures Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"
-                   aria-expanded="true" aria-controls="collapseVacatures">
-                    <i class="fas fa-briefcase"></i>
-                    <span>Job Offers</span>
-                </a>
-                <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>
-                    </div>
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>
-                    </div>
-                </div>
-            </li>
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseVacatures"--}}
+{{--                   aria-expanded="true" aria-controls="collapseVacatures">--}}
+{{--                    <i class="fas fa-briefcase"></i>--}}
+{{--                    <span>Job Offers</span>--}}
+{{--                </a>--}}
+{{--                <div id="collapseVacatures" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">--}}
+{{--                    <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                        <a class="collapse-item" href="{{route('vacatures.index')}}"><i class="far fa-check-circle pr-3"></i>Jobs</a>--}}
+{{--                    </div>--}}
+{{--                    <div class="bg-white py-2 collapse-inner rounded">--}}
+{{--                        <a class="collapse-item" href="{{route('applicants.index')}}"><i class="far fa-check-circle pr-3"></i>Applicants</a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </li>--}}
 
 
             <!-- Sidebar Message -->

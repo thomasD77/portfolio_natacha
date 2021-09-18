@@ -26,7 +26,11 @@
             @foreach($postcategories as $postcategory)
                 <tr>
                     <td>{{$postcategory->id}}</td>
-                    <td><a href="{{route('postcategories.edit', $postcategory->id)}}">{{$postcategory->name}}</a></td>
+                    @if($postcategory->deleted_at != null)
+                        <td>{{$postcategory->name}}</td>
+                    @else
+                        <td><a href="{{route('postcategories.edit', $postcategory->id)}}">{{$postcategory->name}}</a></td>
+                    @endif
                     <td>{{$postcategory->created_at->diffForHumans()}}</td>
                     <td>{{$postcategory->updated_at->diffForHumans()}}</td>
                     <td>{{$postcategory->deleted_at}}</td>

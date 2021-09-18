@@ -37,7 +37,11 @@
                     <td>
                         <img class="rounded-circle" height="62" width="62" src="{{$user->photo ? asset('images/users') . $user->photo->file : 'http://placehold.it/62x62'}}" alt="{{$user->name}}">
                     </td>
-                    <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
+                    @if($user->deleted_at != null)
+                        <td>{{$user->name}}</td>
+                    @else
+                        <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
+                    @endif
                     <td>{{$user->email ? $user->email : 'No email'}}</td>
                     <td>@foreach($user->roles as $role)
                           <span class="badge badge-pill badge-success">{{$role->name}}</span>

@@ -25,9 +25,9 @@
                         <li class="nav-item">
                             <a class="nav-link pb-1 mx-2" href="{{route('blog')}}">BLOG</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">STAGE</a>
-                        </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">STAGE</a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 my-lg-2 d-none d-lg-block">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div>
-                @include('admin.includes.form_error_applicant')
+
                 @if(Session::has('mail_message'))
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>

@@ -11,12 +11,10 @@
    <section id="heading" class="container-fluid custom">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </h1>
-                <p>Autem deserunt eius expedita minus
-                    nesciunt repudiandae temporibus voluptas. Atque consequuntur cupiditate error in iusto labore optio,
-                    quibusdam repellat soluta totam ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium alias aliquam beatae blanditiis, cum doloremque dolorum, earum excepturi fugiat hic id
-                    inventore, odio officia quasi quidem sunt totam voluptate voluptates? </p>
+                <h2 class="text-center">"Sinds 2019 zitten we mee aan de knoppen in de mooiste Stad aan Zee. Groen maakt echt het verschil, en
+                    samen met schepen Silke Beirens zijn we trots op de vele realisaties die nu al Oostende rijker en
+                    mooier maken. Wil je weten waar we mee bezig zijn? Neem dan zeker een kijkje bij de laatste
+                    nieuwsberichten."</h2>
             </div>
         </div>
     </section>
@@ -70,20 +68,12 @@
                     <div class="col-md-6 d-flex align-items-center">
                         <div>
                             <h2 class="text-center">Scroll Away In My Facebook Feed</h2>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
-                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
-                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
-                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
-                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
+                            <p class="text-center">Meer weten over het reilen en zeilen in het leven van een
+                                Groen-schepen? Je kan zowel Groen Oostende als de schepenen volgen via diverse sociale
+                                mediakanalen. Hieronder vind je alvast mijn laatste Facebookberichten, maar volg me
+                                gerust ook op Instagram of Twitter.
                             </p>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
-                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
-                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit iusto magni
-                                necessitatibus nihil voluptatibus. A, alias culpa cum cupiditate eos excepturi nesciunt
-                                optio quibusdam sunt tenetur voluptate voluptates voluptatibus!
-                            </p>
+
                         </div>
                     </div>
                 </div>

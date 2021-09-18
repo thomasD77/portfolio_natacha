@@ -61,7 +61,7 @@
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact Us</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>
+{{--                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>--}}
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Blog</h3>
@@ -80,7 +80,7 @@
 <button class="d-none d-md-block" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up mx-2 "></i></button>
 <footer>
     <hr class=" m-0">
-    <p class="text-center py-2 m-0">Copyright &copy; 2021 | Natacha Waldmann</p>
+    <p class="text-center py-2 m-0">Copyright &copy; {{ now()->year }} | Natacha Waldmann</p>
 </footer>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v10.0&appId=274641024001693&autoLogAppEvents=1" nonce="0yTAqUl8"></script>

@@ -25,9 +25,9 @@
                         <li class="nav-item">
                             <a class="nav-link pb-1 mx-2" href="{{route('blog')}}">BLOG</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">STAGE</a>
-                        </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link pb-1 mx-2" href="{{route('vacatures')}}">STAGE</a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
                 <div class="col-12 col-lg-3 my-lg-2 d-none d-lg-block">

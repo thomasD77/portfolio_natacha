@@ -61,7 +61,7 @@
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Contact Us</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
-                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Stage</p></a>
+{{--                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Stage</p></a>--}}
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Blog</h3>
@@ -79,7 +79,7 @@
 </div>
 <footer>
     <hr class=" m-0">
-    <p class="text-center py-2 m-0">Copyright &copy; 2021 | Natacha Waldmann</p>
+    <p class="text-center py-2 m-0">Copyright &copy; {{now()->year}} | Natacha Waldmann</p>
 </footer>
 <script src="{{ asset('js/share.js') }}"></script>
 <script src="{{asset('js/front-app.js')}}"></script>
