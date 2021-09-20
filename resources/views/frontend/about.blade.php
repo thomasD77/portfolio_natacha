@@ -50,8 +50,8 @@
                 <div class="row">
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <img class="img-fluid w-75 mx-auto speerpunt" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img class="img-fluid w-75 mx-auto" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -67,15 +67,16 @@
                                                 beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
                                                 getreden met 35 concrete acties die een trendbreuk moeten realiseren.
                                                 Meer weten? Het integrale plan vind je hier
-                                                https://www.oostende.be/armoedebeleidsplan </p>
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/armoedebeleidsplan">Armoedebeleidsplan</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#milieu">
-                            <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Milieuvervuiling gradient.jpg')}}" alt="milieu" >
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#milieu">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Milieuvervuiling gradient.jpg')}}" alt="milieu" >
                             <h3 class="text-center text-uppercase mosgroen pb-2">Zorg</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="milieu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -91,18 +92,20 @@
                                                 zowel voor ouderen (WZC Boarebreker, WZC Lacourt, dagcentrum Wante,
                                                 palliatief dagcentrum De Kust en assistentiewoningen De Zeeparel en ’t
                                                 Staketsel) als voor jongeren via de voorzieningen voor Jongerenwelzijn
-                                                De Bolle en De Brem. https://www.oostende.be/zorg </p>
+                                                De Bolle en De Brem.
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/zorg">Zorg</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#milieu">
-                            <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Migratie en asiel gradient.jpg')}}" alt="mens">
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#verhuur">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Migratie en asiel gradient.jpg')}}" alt="mens">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Sociaal Verhuurkantoor</h3>
                             <!-- Modal -->
-                            <div class="modal fade" id="milieu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="verhuur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header border-0">
@@ -115,15 +118,16 @@
                                                 levensdomeinen stappen te zetten. Met het SVK dragen we actief bij aan
                                                 het aanbod voor die mensen die niet terecht kunnen op de private markt
                                                 en proberen zo ook structureel de armoedeproblematiek aan te pakken.
-                                                https://www.svkbredeneoostende.be/ </p>
+                                            </p>
+                                            <a target="_blank" href="https://www.svkbredeneoostende.be">svkbredeneoostende.be</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#mens">
-                            <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Kinderen en jongeren gradient.jpg')}}" alt="kinderen">
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#mens">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Onderwijs_gradient.jpg')}}" alt="kinderen">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Onderwijs</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="mens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -140,15 +144,16 @@
                                                 het nieuwe stadsbestuur in 2019 uitgebreid werd naar het secundair
                                                 onderwijs, is een grote steun en helpt mee om problemen snel te
                                                 detecteren. Meer weten:
-                                                https://www.oostende.be/brugfiguren-onderwijs </p>
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/brugfiguren-onderwijs">Onderwijs</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#kinderen">
-                            <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Cultuur en media gradient.jpg')}}" alt="Cultuur">
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#kinderen">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Cultuur en media gradient.jpg')}}" alt="Cultuur">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Lokaal gezinsbeleid</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="kinderen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -165,15 +170,17 @@
                                                 ondersteuning waar nodig. Stad Oostende versterkt dat netwerk met eigen
                                                 expertise en diensten zoals de Wegwijzer, waar mensen geholpen worden om
                                                 bijvoorbeeld onderwijscheques aan te vragen of correcte informatie over
-                                                het hulpverleningsaanbod. https://www.oostende.be/huisvanhetkind </p>
+                                                het hulpverleningsaanbod.
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/huisvanhetkind">Huis van het kind</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#cultuur">
-                            <img class="img-fluid  w-75 mx-auto speerpunt" src="{{asset('images/frontend/Economie gradient.jpg')}}" alt="Economie">
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#cultuur">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Economie gradient.jpg')}}" alt="Economie">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Welzijn</h3>
                             <!-- Modal -->
                             <div class="modal fade" id="cultuur" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -191,12 +198,67 @@
                                                 Welzijns- en Armoedeplatform en het pas opgezette netwerk Overkop.
                                                 Rechtenverkenning en -toekenning is iets waar we actief werk van maken,
                                                 om mensen maximaal te ontzorgen en hen de steun te bieden waar ze recht
-                                                op hebben. https://www.oostende.be/welzijn </p>
+                                                op hebben.
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/welzijn">Welzijn</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#socialedienst">
+                            <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Diverse samenleving gradient.jpg')}}" alt="Economie">
+                            <h3 class="text-center text-uppercase mosgroen pb-2">Bijzonder Comité voor de Sociale Dienst</h3>
+                            <!-- Modal -->
+                            <div class="modal fade" id="socialedienst" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-0">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Het OCMW is er voor alle Oostendenaars met een hulpvraag, en kan mensen
+                                                helpen die een bepaalde behoefte hebben of een aantoonbare noodzaak. Die
+                                                hulp kan financieel zijn, maar kan ook bestaan uit begeleiding,
+                                                bijvoorbeeld rond energiearmoede, budgetbeheer of (dreigende) dak- en
+                                                thuisloosheid. Recent zijn we van start gegaan met een nieuw hulpkader
+                                                dat ons in staat stelt om nog korter op de bal te spelen en mensen
+                                                doeltreffender te helpen. Alle info hierover vind je hier:
+                                            </p>
+                                            <a target="_blank" href="https://www.oostende.be/hervorming-ocmw-steun-in-de-strijd-tegen-armoede">OCMW STEUN</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#gezinsbeleid">
+                        <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Kinderen en jongeren gradient.jpg')}}" alt="Economie">
+                        <h3 class="text-center text-uppercase mosgroen pb-2">Lokaal gezinsbeleid</h3>
+                        <!-- Modal -->
+                        <div class="modal fade" id="gezinsbeleid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Kinderen zijn de volwassenen van morgen, en dus is een sterk gezinsbeleid dé
+                                            manier om te bouwen aan het Oostende van de toekomst. Het Netwerk Huis van
+                                            het Kind voorziet in een aanbod voor gezinnen met kinderen van 0 tot 18
+                                            jaar. Bij onze partners vind je informatie, advies en ondersteuning waar
+                                            nodig. Stad Oostende versterkt dat netwerk met eigen expertise en diensten
+                                            zoals de Wegwijzer, waar mensen geholpen worden om bijvoorbeeld
+                                            onderwijscheques aan te vragen of correcte informatie over het
+                                            hulpverleningsaanbod.
+                                        </p>
+                                        <a target="_blank" href="https://www.oostende.be/huisvanhetkind ">Huis van het kind</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

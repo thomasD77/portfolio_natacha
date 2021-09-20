@@ -11,10 +11,10 @@
    <section id="heading" class="container-fluid custom">
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <h2 class="text-center">"Sinds 2019 zitten we mee aan de knoppen in de mooiste Stad aan Zee. Groen maakt echt het verschil, en
+                <h2 class="text-center">Sinds 2019 zitten we mee aan de knoppen in de mooiste Stad aan Zee. Groen maakt echt het verschil, en
                     samen met schepen Silke Beirens zijn we trots op de vele realisaties die nu al Oostende rijker en
                     mooier maken. Wil je weten waar we mee bezig zijn? Neem dan zeker een kijkje bij de laatste
-                    nieuwsberichten."</h2>
+                    nieuwsberichten.</h2>
             </div>
         </div>
     </section>

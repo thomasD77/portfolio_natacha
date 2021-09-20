@@ -6,22 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/content-top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/content-top.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar-home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +231,8 @@
       <workItem from="1622711052306" duration="108000" />
       <workItem from="1622826473426" duration="2895000" />
       <workItem from="1631952837589" duration="5577000" />
+      <workItem from="1631959321280" duration="226000" />
+      <workItem from="1632163357835" duration="1015000" />
     </task>
     <servers />
   </component>
