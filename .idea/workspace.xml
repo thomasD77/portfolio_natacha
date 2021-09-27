@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/about-natacha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/home-natacha.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
@@ -173,17 +175,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\layouts" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\frontend\includes" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\posts" />
-      <recent name="C:\wamp64.2\www\portfolio_natacha\app\Http\Requests" />
     </key>
   </component>
   <component name="RunManager">
@@ -232,11 +234,23 @@
       <workItem from="1622826473426" duration="2895000" />
       <workItem from="1631952837589" duration="5577000" />
       <workItem from="1631959321280" duration="226000" />
-      <workItem from="1632163357835" duration="1015000" />
+      <workItem from="1632163357835" duration="1251000" />
+      <workItem from="1632767879505" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 d-flex flex-column px-0">
-               <img class="img-fluid " src="{{asset('images/frontend/natacha.jpg')}}" alt="">
+               <img class="img-fluid " src="{{asset('images/frontend/home-natacha.jpg')}}" alt="">
             </div>
         </div>
     </div>
