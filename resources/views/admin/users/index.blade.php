@@ -67,7 +67,9 @@
         @endif
         </tbody>
     </table>
-    {{$users->links()}}
+    <div class="d-flex justify-content-center mt-5">
+        {{$users->links()}}
+    </div>
 @stop
 
 

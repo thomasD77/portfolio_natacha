@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/about-natacha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/home-natacha.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +235,8 @@
       <workItem from="1631952837589" duration="5577000" />
       <workItem from="1631959321280" duration="226000" />
       <workItem from="1632163357835" duration="1251000" />
-      <workItem from="1632767879505" duration="145000" />
+      <workItem from="1632767879505" duration="706000" />
+      <workItem from="1632941966853" duration="209000" />
     </task>
     <servers />
   </component>
@@ -252,5 +253,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

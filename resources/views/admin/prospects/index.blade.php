@@ -55,6 +55,7 @@
         @endif
         </tbody>
     </table>
+    {{$prospects->links()}}
 @stop
 
 
