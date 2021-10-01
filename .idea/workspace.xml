@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/frontend/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ContactFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ContactFormRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Prospect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Prospect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,17 +172,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images/frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\layouts" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\frontend\includes" />
-      <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -239,7 +234,8 @@
       <workItem from="1632163357835" duration="1251000" />
       <workItem from="1632767879505" duration="706000" />
       <workItem from="1632941966853" duration="391000" />
-      <workItem from="1633106378759" duration="1463000" />
+      <workItem from="1633106378759" duration="1785000" />
+      <workItem from="1633112782771" duration="57000" />
     </task>
     <servers />
   </component>
