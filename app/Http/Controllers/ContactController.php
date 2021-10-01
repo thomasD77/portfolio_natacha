@@ -55,6 +55,7 @@ class ContactController extends Controller
                     'email' => $request->email,
                     'message' => $request->message,
                     'subject' => $request->subject,
+                    'GDPR' => $request->GDPR,
                 ];
                 Prospect::create($data);
                 Session::flash('contactform_message');

@@ -18,6 +18,10 @@
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:alt" content="Portfolio foto van Natacha Waldmann van de partij Groen in Oostende" />
 
+    <link rel="icon"
+          type="image/jpg"
+          href="{{ asset('images/frontend/favicon.png') }}" />
+
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
 </head>

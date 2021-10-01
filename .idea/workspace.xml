@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postcategories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/prospects/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ContactFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ContactFormRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Prospect.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Prospect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/head.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +238,8 @@
       <workItem from="1631959321280" duration="226000" />
       <workItem from="1632163357835" duration="1251000" />
       <workItem from="1632767879505" duration="706000" />
-      <workItem from="1632941966853" duration="209000" />
+      <workItem from="1632941966853" duration="391000" />
+      <workItem from="1633106378759" duration="1463000" />
     </task>
     <servers />
   </component>

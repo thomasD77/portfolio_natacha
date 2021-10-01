@@ -26,4 +26,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/front-app.css') }}" rel="stylesheet">
+
+    <link rel="icon"
+          type="image/jpg"
+          href="{{ asset('images/frontend/favicon.png') }}" />
 </head>
