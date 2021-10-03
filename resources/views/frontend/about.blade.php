@@ -10,7 +10,7 @@
             <div class="col-md-8 offset-md-2">
                 <div class="row mt-4">
                     <img class="img-fluid mt-5 w-50 mx-auto" src="{{asset('images/frontend/about-natacha.jpg')}}" alt="NatachaWaldmann">
-                    <h1 id="wie" class="my-5">Wie is Natacha Waldamnn...</h1>
+                    <h1 id="wie" class="my-5">Wie is Natacha Waldmann...</h1>
                     <p>Sinds 2019 ben ik Schepen van Welzijn, Zorg en Onderwijs in Oostende, een portefeuille die me
                         nauw aan het hart ligt. Van opleiding ben ik namelijk orthopedagoge en oplossingsgericht
                         therapeut. Na mijn studies startte ik in 2003 als leerkracht expressie in het MMI van Kortemark
