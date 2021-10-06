@@ -2,14 +2,14 @@
 @section('content')
 
 
-<main class="container-fluid">
+<main class="container-fluid px-0">
     <div id="app"></div>
 
     <section id="about">
         <div class="row">
             <div class="col-md-8 offset-md-2">
                 <div class="row mt-4">
-                    <img class="img-fluid mt-5 w-50 mx-auto" src="{{asset('images/frontend/about-natacha.jpg')}}" alt="NatachaWaldmann">
+                    <img class="img-fluid mt-5 mx-auto" src="{{asset('images/frontend/about.jpg')}}" alt="NatachaWaldmann">
                     <h1 id="wie" class="my-5">Wie is Natacha Waldmann...</h1>
                     <p>Sinds 2019 ben ik Schepen van Welzijn, Zorg en Onderwijs in Oostende, een portefeuille die me
                         nauw aan het hart ligt. Van opleiding ben ik namelijk orthopedagoge en oplossingsgericht

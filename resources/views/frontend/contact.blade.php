@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-12 col-md-4 text-center my-2">
                         <i class="fas fa-mobile-alt fa-5x groengroen my-2"></i>
-                        <p class="mb-0">T 059 25 84 59</p>
+                        <p class="mb-0 text-dark">T 059 25 84 59</p>
                     </div>
                     <div class="col-12  col-md-4 text-center my-2">
                         <i class="far fa-envelope-open fa-5x groengroen my-2"></i>

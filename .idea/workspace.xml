@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/about_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/frontend/home.pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +175,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/frontend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images/frontend" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\layouts" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\frontend\includes" />
@@ -237,6 +241,7 @@
       <workItem from="1633112782771" duration="57000" />
       <workItem from="1633112973582" duration="75000" />
       <workItem from="1633266942508" duration="8000" />
+      <workItem from="1633518573147" duration="311000" />
     </task>
     <servers />
   </component>
