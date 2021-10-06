@@ -2,7 +2,7 @@
 @section('content')
 
 
-<main class="container-fluid">
+<main class="container-fluid bg-white">
     <div id="app"></div>
 
     <section id="about">
