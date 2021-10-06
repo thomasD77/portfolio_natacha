@@ -54,23 +54,23 @@
                     <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="img-fluid" src="{{asset('images/frontend/Democratie en overheid gradient.jpg')}}" alt="mens">
                         <h3 class="text-center text-uppercase mosgroen pb-2">Integratie en gelijke kansen</h3>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header border-0">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>Armoedebestrijding is een topprioriteit in Oostende, op vandaag wordt nog
-                                            steeds bijna één op drie kinderen in armoede geboren, dit is een
-                                            schandvlek voor onze Stad. Om komaf te maken met het gebrek aan visie en
-                                            beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
-                                            getreden met 35 concrete acties die een trendbreuk moeten realiseren.
-                                            Meer weten? Het integrale plan vind je hier
-                                        </p>
-                                        <a target="_blank" href="https://www.oostende.be/armoedebeleidsplan">Armoedebeleidsplan</a>
-                                    </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header border-0">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Armoedebestrijding is een topprioriteit in Oostende, op vandaag wordt nog
+                                        steeds bijna één op drie kinderen in armoede geboren, dit is een
+                                        schandvlek voor onze Stad. Om komaf te maken met het gebrek aan visie en
+                                        beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
+                                        getreden met 35 concrete acties die een trendbreuk moeten realiseren.
+                                        Meer weten? Het integrale plan vind je hier
+                                    </p>
+                                    <a target="_blank" href="https://www.oostende.be/armoedebeleidsplan">Armoedebeleidsplan</a>
                                 </div>
                             </div>
                         </div>
