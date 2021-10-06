@@ -46,7 +46,7 @@
 
     <section id="bevoegdheden">
         <div class="row">
-            <div class="col-md-8 offset-md-2 mb-5">
+            <div class="col-md-8 offset-md-2 mb-5 bg-white">
                 <div class="row">
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
