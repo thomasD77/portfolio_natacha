@@ -61,7 +61,7 @@
                     </div>
 
 
-                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="col-md-3 d-flex flex-column justify-content-center bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img class="img-fluid w-75 mx-auto" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>
                             <!-- Modal -->
