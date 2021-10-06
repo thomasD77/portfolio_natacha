@@ -2,7 +2,7 @@
 @section('content')
 
 
-<main class="container-fluid px-0">
+<main class="container-fluid">
     <div id="app"></div>
 
     <section id="about">
@@ -287,9 +287,7 @@
         </div>
     </section>
 
-
-
-
+</main>
 
 
 
