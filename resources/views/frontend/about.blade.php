@@ -56,7 +56,7 @@
                         <h3 class="text-center text-uppercase mosgroen pb-2">Integratie en gelijke kansen</h3>
                     </div>
                     <!-- Modal -->
-                    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal bg-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header border-0">
