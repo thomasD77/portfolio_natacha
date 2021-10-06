@@ -46,11 +46,16 @@
 
     <section id="bevoegdheden">
         <div class="row">
-            <div class="col-md-8 offset-md-2 mb-5 bg-white">
+            <div class="col-md-8 offset-md-2 mb-5">
                 <div class="row">
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
-                        <div class="col-md-3 d-flex flex-column justify-content-center bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <h2 id="bevoegdheden" class="my-3">Wat zijn Silke haar bevoegdheden?</h2>
+                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                        <img class="img-fluid" src="{{asset('images/frontend/Democratie en overheid gradient.jpg')}}" alt="mens">
+                        <h3 class="text-center text-uppercase mosgroen pb-2">Integratie en gelijke kansen</h3>
+                    </div>
+                        <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img class="img-fluid w-75 mx-auto" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>
                             <!-- Modal -->
