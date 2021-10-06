@@ -53,8 +53,9 @@
 
 
                     <div class="col-md-3 d-flex flex-column justify-content-center bg-white">
-                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="img-fluid" src="{{asset('images/frontend/Democratie en overheid gradient.jpg')}}" alt="mens">
+                        
+                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <h3 class="text-center text-uppercase mosgroen pb-2 bg-white">Integratie en gelijke kansen</h3>
                         </div>
                     </div>
