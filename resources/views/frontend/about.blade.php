@@ -50,31 +50,14 @@
                 <div class="row">
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
+
                     <h2 id="bevoegdheden" class="my-3">Wat zijn Silke haar bevoegdheden?</h2>
                     <div class="col-md-3 d-flex flex-column justify-content-center bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="img-fluid" src="{{asset('images/frontend/Democratie en overheid gradient.jpg')}}" alt="mens">
                         <h3 class="text-center text-uppercase mosgroen pb-2 bg-white">Integratie en gelijke kansen</h3>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal bg-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog bg-white">
-                            <div class="modal-content bg-white">
-                                <div class="modal-header border-0">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Armoedebestrijding is een topprioriteit in Oostende, op vandaag wordt nog
-                                        steeds bijna één op drie kinderen in armoede geboren, dit is een
-                                        schandvlek voor onze Stad. Om komaf te maken met het gebrek aan visie en
-                                        beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
-                                        getreden met 35 concrete acties die een trendbreuk moeten realiseren.
-                                        Meer weten? Het integrale plan vind je hier
-                                    </p>
-                                    <a target="_blank" href="https://www.oostende.be/armoedebeleidsplan">Armoedebeleidsplan</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+
                         <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img class="img-fluid w-75 mx-auto" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>
@@ -288,6 +271,27 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal bg-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog bg-white">
+            <div class="modal-content bg-white">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Armoedebestrijding is een topprioriteit in Oostende, op vandaag wordt nog
+                        steeds bijna één op drie kinderen in armoede geboren, dit is een
+                        schandvlek voor onze Stad. Om komaf te maken met het gebrek aan visie en
+                        beleid op dat thema is sinds 2019 een sterk armoedeplan in werking
+                        getreden met 35 concrete acties die een trendbreuk moeten realiseren.
+                        Meer weten? Het integrale plan vind je hier
+                    </p>
+                    <a target="_blank" href="https://www.oostende.be/armoedebeleidsplan">Armoedebeleidsplan</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section id="bestuursakkoord">
         <div class="row">
