@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/frontend_assets/scss/_style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +238,7 @@
       <workItem from="1633112973582" duration="75000" />
       <workItem from="1633266942508" duration="8000" />
       <workItem from="1633518573147" duration="311000" />
-      <workItem from="1633519286396" duration="756000" />
+      <workItem from="1633519286396" duration="895000" />
     </task>
     <servers />
   </component>
