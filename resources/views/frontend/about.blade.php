@@ -51,14 +51,14 @@
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
                     <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
                     <h2 id="bevoegdheden" class="my-3">Wat zijn Silke haar bevoegdheden?</h2>
-                    <div class="col-md-3 d-flex flex-column justify-content-center" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="col-md-3 d-flex flex-column justify-content-center bg-white" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <img class="img-fluid" src="{{asset('images/frontend/Democratie en overheid gradient.jpg')}}" alt="mens">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Integratie en gelijke kansen</h3>
+                        <h3 class="text-center text-uppercase mosgroen pb-2 bg-white">Integratie en gelijke kansen</h3>
                     </div>
                     <!-- Modal -->
                     <div class="modal bg-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
+                        <div class="modal-dialog bg-white">
+                            <div class="modal-content bg-white">
                                 <div class="modal-header border-0">
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
