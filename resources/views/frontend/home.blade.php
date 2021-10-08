@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-md-6 d-flex align-items-center">
                         <div>
-                            <h2 class="text-center">Scroll Away In My Facebook Feed</h2>
+                            <h2 class="text-center">Nog meer nieuwtjes?</h2>
                             <p class="text-center">Meer weten over het reilen en zeilen in het leven van een
                                 Groen-schepen? Je kan zowel Groen Oostende als de schepenen volgen via diverse sociale
                                 mediakanalen. Hieronder vind je alvast mijn laatste Facebookberichten, maar volg me

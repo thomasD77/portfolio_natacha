@@ -24,7 +24,7 @@
                         intussen woon ik samen met mijn man Youri en mijn drie kinderen Titus, Len en Pixie in
                         Mariakerke. </p>
 
-                    <h2 id="waarom" class="my-3">Waarom in de Politiek gestapt?</h2>
+                    <h2 id="waarom" class="my-3">Waarom kies ik voor politiek?</h2>
                     <p>Ik kom niet uit een politiek nest, maar heb wel altijd de drang gevoeld om maatschappelijk mee
                         dingen in beweging te zetten. Onrechtvaardigheid bestrijden is mijn motor. Tijdens mijn
                         professionele carrière maar ook vroeger als leidster in de scouts heb ik te vaak gezien hoe
@@ -49,7 +49,7 @@
             <div class="col-md-8 offset-md-2 mb-5">
                 <div class="row">
                     <h2 id="bevoegdheden" class="my-3">De Speerpunten</h2>
-                    <h5 class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </h5>
+                    <p class="mb-4">Klik op de speerpunten om er meer over te ontdekken... </p>
                         <div class="col-md-3 d-flex flex-column justify-content-center bg-white" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer">
                             <img class="img-fluid w-75 mx-auto" src="{{asset('images/frontend/Klimaat gradient.jpg')}}" alt="klimaat">
                             <h3 class="text-center text-uppercase mosgroen pb-2">Armoedebestrijding</h3>

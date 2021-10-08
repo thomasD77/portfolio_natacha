@@ -100,7 +100,7 @@
                         <div class="g-recaptcha" id="g-recaptcha" data-sitekey="6LcO5nUcAAAAAHgSnEkoo8xedmqoOmzkEViXAaVP"></div>
                         <div class="row">
                             <div class="col-12 col-lg-4 offset-lg-4 d-flex justify-content-center mt-3 mb-5">
-                                <button type="submit" class="button rounded">Send to Us</button>
+                                <button type="submit" class="button rounded">verstuur</button>
                             </div>
                         </div>
                     </form>

@@ -9,7 +9,7 @@
                     <p>natacha.waldmann@oostende.be</p>
                     <p>T 059 25 84 59</p>
                     <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a class="button rounded text-decoration-none text-white" href="mailto:natacha.waldmann@oostende.be">Email Us</a>
+                    <a class="button rounded text-decoration-none text-white" href="mailto:natacha.waldmann@oostende.be">e-mail</a>
                     {{--<!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->
@@ -52,14 +52,14 @@
                     </div>--}}
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">About Us</h3>
+                    <h3 class="mb-4">About</h3>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Natacha?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#bestuursakkoord"])}}"><p>Bestuursakkoord</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#bevoegdheden"])}}"><p>Speerpunten</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">Contact Us</h3>
+                    <h3 class="mb-4">Contact</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
 {{--                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Stage</p></a>--}}
                 </div>
