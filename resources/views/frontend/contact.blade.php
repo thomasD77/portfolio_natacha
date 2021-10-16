@@ -64,7 +64,7 @@
                     </div>
                     <div class="col-12  col-md-4 text-center my-2">
                         <i class="far fa-envelope-open fa-5x groengroen my-2"></i>
-                        <p class="mb-0">natacha.waldmann@oostende.be</p>
+                        <p class="mb-0">Natacha Waldmann</p>
                     </div>
                 </div>
             </div>

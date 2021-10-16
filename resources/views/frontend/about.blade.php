@@ -235,7 +235,7 @@
 
                     <div class="col-md-3 d-flex flex-column justify-content-center" style="cursor: pointer" data-bs-toggle="modal" data-bs-target="#gezinsbeleid">
                         <img class="img-fluid  w-75 mx-auto" src="{{asset('images/frontend/Kinderen en jongeren gradient.jpg')}}" alt="Economie">
-                        <h3 class="text-center text-uppercase mosgroen pb-2">Lokaal gezinsbeleid</h3>
+                        <h3 class="text-center text-uppercase mosgroen pb-2">Ouderenbeleid</h3>
                         <!-- Modal -->
                         <div class="modal fade" id="gezinsbeleid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -244,14 +244,12 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Kinderen zijn de volwassenen van morgen, en dus is een sterk gezinsbeleid dé
-                                            manier om te bouwen aan het Oostende van de toekomst. Het Netwerk Huis van
-                                            het Kind voorziet in een aanbod voor gezinnen met kinderen van 0 tot 18
-                                            jaar. Bij onze partners vind je informatie, advies en ondersteuning waar
-                                            nodig. Stad Oostende versterkt dat netwerk met eigen expertise en diensten
-                                            zoals de Wegwijzer, waar mensen geholpen worden om bijvoorbeeld
-                                            onderwijscheques aan te vragen of correcte informatie over het
-                                            hulpverleningsaanbod.
+                                        <p>Oostende is de meest grijze stad van Vlaanderen. Zowel geboren en getogen
+                                            ‘ploaten’ als mensen uit het binnenland maken hier hun dromen waar. Ook als
+                                            zij ouder worden is het belangrijk dat onze inwoners zich hier thuis blijven
+                                            voelen of het nu over wonen, mentaal welzijn, vrije tijd of zorg gaat. We
+                                            maken dan ook werk van een leeftijdsvriendelijk beleid, waar
+                                            toegankelijkheid en een laagdrempelige dienstverlening centraal staan.
                                         </p>
                                         <a target="_blank" href="https://www.oostende.be/huisvanhetkind ">Huis van het kind</a>
                                     </div>
@@ -275,7 +273,7 @@
                                     <h2 class="text-center">Lees hier het volledige Bestuursakkoord</h2>
                                     <div class="bg-white py-2 collapse-inner rounded d-flex justify-content-center ">
                                         @foreach($agreements as $agreement)
-                                            <a class="btn btn-dark text-white" target="_blank" href="{{$agreement->file ? asset('images/agreements') .$agreement->file : 'http://placehold.it/62x62'}}">Open Here</a>
+                                            <a class="btn btn-dark text-white" target="_blank" href="{{$agreement->file ? asset('images/agreements') .$agreement->file : 'http://placehold.it/62x62'}}">Open hier</a>
                                         @endforeach
                                     </div>
                                 </div>

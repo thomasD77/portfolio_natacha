@@ -26,9 +26,11 @@
                     <h2 class="text-center my-4">Meest recente nieuws </h2>
                     @foreach($posts as $post)
                         <div class="col-md-4 card border-0 my-4" style="background-color:#f8fafc" >
-                            <img class="mt-3 img-fluid"  src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
+                            <a href="{{route('post', $post->slug)}}">
+                                <img class="mt-3 img-fluid"  src="{{$post->photo ? asset('images/posts') . $post->photo->file : 'http://placehold.it/62x62'}}" alt="{{$post->name}}">
+                            </a>
                             <div class="card-title border-none">
-                                <h2 class="mt-2"><a class="text-decoration-none text-dark" href="">{{Str::limit($post->title, 35)}}</a></h2>
+                                <h2 class="mt-2"><a class="text-decoration-none text-dark" href="{{route('post', $post->slug)}}">{{Str::limit($post->title, 35)}}</a></h2>
                             </div>
                             <div class="card-body px-0  pt-0 ">
                                 <p class="mb-2">{{substr(strip_tags($post->body),0,200)}}{{strlen(strip_tags($post->body))

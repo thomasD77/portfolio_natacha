@@ -6,10 +6,9 @@
                 <div class="col-12 col-xl-3 mb-5">
                     <h3 class="text-uppercase mb-4">Natacha Waldmann</h3>
                     <p>Schepen van Zorg, Welzijn & Onderwijs</p>
-                    <p>natacha.waldmann@oostende.be</p>
                     <p>T 059 25 84 59</p>
-                    <p>Graag contact opnemen? Stuur ons een e-mail.</p>
-                    <a class="button rounded text-decoration-none text-white" href="mailto:natacha.waldmann@oostende.be">e-mail</a>
+                    <p>Graag contact opnemen? Stuur ons een bericht.</p>
+                    <a class="button rounded text-decoration-none text-white" href="{{route('contact', ["#credits"])}}">e-mail</a>
                     {{--<!-- Button trigger modal -->
                     <button type="button" class="button rounded"  data-bs-toggle="modal" data-bs-target="#exampleModal">Email Us</button>
                     <!-- Modal -->
@@ -52,7 +51,7 @@
                     </div>--}}
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">About</h3>
+                    <h3 class="mb-4">Over</h3>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#wie"])}}"><p>Wie is Natacha?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#waarom"])}}"><p>Waarom in de politiek?</p></a>
                     <a class="text-decoration-none text-dark" href="{{route('about', ["#bestuursakkoord"])}}"><p>Bestuursakkoord</p></a>
@@ -64,7 +63,7 @@
 {{--                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>--}}
                 </div>
                 <div class="col-12 col-xl-3">
-                    <h3 class="mb-4">Blog</h3>
+                    <h3 class="mb-4">Nieuws</h3>
                     @foreach($footer_posts as $post)
                         <div class="row">
                             <div class="col-3 col-md-1 col-lg-3"><img class="img-fluid" src="{{asset('images/frontend/logo_footer_groen2.jpg')}}" alt=""></div>
