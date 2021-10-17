@@ -80,7 +80,7 @@ class FrontendController extends Controller
 
     public function index_post($slug){
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         $post = Post::where('slug', $slug)->first();
         return view('frontend.post', compact('post', 'footer_posts'));
     }
