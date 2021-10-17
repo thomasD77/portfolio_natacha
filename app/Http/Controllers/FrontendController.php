@@ -59,21 +59,21 @@ class FrontendController extends Controller
     public function index_about(){
         $agreements = Agreement::latest()->limit(1)->get();
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         return view('frontend.about', compact('footer_posts', 'agreements'));
     }
 
     public function index_blog(){
         $timeNow = Carbon::now()->toDateString();
         $posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->paginate(6);
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         return view('frontend.blog', compact('posts', 'footer_posts'));
     }
 
     public function vacatures(){
         $vacatures = Vacature::latest()->paginate(1);
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         return view('frontend.vacatures', compact( 'footer_posts', 'vacatures'));
     }
 
@@ -89,7 +89,7 @@ class FrontendController extends Controller
 
     public function index_contact(){
         $timeNow = Carbon::now()->toDateString();
-        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(4)->get();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
         $FAQS = FAQ::all();
         return view('frontend.contact', compact('FAQS', 'footer_posts'));
     }
