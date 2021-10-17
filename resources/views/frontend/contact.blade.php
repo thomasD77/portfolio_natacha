@@ -79,18 +79,18 @@
                         @csrf
                         <div  class="row">
                             <div class="col-12">
-                                <input  name="name" type="text" class="form-control my-1 styleinput shadow border-0" placeholder="Enter your name" aria-label="Username" aria-describedby="basic-addon1">
+                                <input  name="name" type="text" class="form-control my-1 styleinput shadow border-0" placeholder="Uw naam hier" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                             <div class="col-12">
-                                <input id="input2" name="email" type="text" class="form-control my-1 shadow border-0" placeholder="Your Email" aria-label="email" aria-describedby="basic-addon1">
+                                <input id="input2" name="email" type="text" class="form-control my-1 shadow border-0" placeholder="Uw e-mail hier" aria-label="email" aria-describedby="basic-addon1">
                             </div>
                             <div class="col-12">
-                                <input id="input3" name="subject" type="text" class="form-control my-1 shadow border-0" placeholder="Subject" aria-label="Username" aria-describedby="basic-addon1">
+                                <input id="input3" name="subject" type="text" class="form-control my-1 shadow border-0" placeholder="Onderwerp" aria-label="Username" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="row my-3">
                             <div class="col-12">
-                                <textarea id="input4" name="message" class="form-control textfield shadow border-0" rows="10" cols="50" placeholder="Your message here" aria-label="With textarea"></textarea>
+                                <textarea id="input4" name="message" class="form-control textfield shadow border-0" rows="10" cols="50" placeholder="Uw bericht hier" aria-label="With textarea"></textarea>
                             </div>
                         </div>
                         <div class="form-group form-check ml-3">

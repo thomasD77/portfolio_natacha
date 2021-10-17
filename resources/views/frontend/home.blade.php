@@ -39,7 +39,7 @@
                                 <div><i class="far fa-calendar-alt me-2"></i>{{$post->created_at->diffForHumans()}}</div>
                             </div>
                             <div class="card-footer border-0 px-0" style="background-color:#f8fafc">
-                                <a  href="{{route('post', $post->slug)}}" class="btn btn-dark">Read More</a>
+                                <a  href="{{route('post', $post->slug)}}" class="btn btn-dark">Lees meer</a>
                             </div>
                         </div>
                     @endforeach

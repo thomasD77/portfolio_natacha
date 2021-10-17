@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="69b295de-82e8-434d-afb5-3d50b2222201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_29_120015_create_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_29_120015_create_photos_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/footer_home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar-home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar-home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/includes/nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/post.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,17 +177,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/posts" />
       <recent name="$PROJECT_DIR$/public/images/frontend" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\public\images\frontend" />
       <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\layouts" />
-      <recent name="C:\wamp64.2\www\portfolio_natacha\resources\views\frontend\includes" />
     </key>
   </component>
   <component name="RunManager">
@@ -249,7 +247,7 @@
       <workItem from="1633519286396" duration="972000" />
       <workItem from="1633530270326" duration="2330000" />
       <workItem from="1633702262001" duration="633000" />
-      <workItem from="1634394650108" duration="1603000" />
+      <workItem from="1634394650108" duration="4739000" />
     </task>
     <servers />
   </component>

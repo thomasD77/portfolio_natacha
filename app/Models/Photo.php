@@ -10,8 +10,6 @@ class Photo extends Model
     use HasFactory;
     protected $fillable = [
         'file',
-        'small',
-        'custom',
     ];
 
     protected $uploads = '/';
