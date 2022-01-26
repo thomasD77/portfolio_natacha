@@ -44,6 +44,7 @@
                         </div>
                     @endforeach
                     <div id="nieuwsbrief"></div>
+                    <br><br><br>
                 </div>
             </div>
         </div>
