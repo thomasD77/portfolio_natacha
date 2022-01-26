@@ -61,6 +61,7 @@
                     <h3 class="mb-4">Contact</h3>
                     <a class="text-decoration-none text-dark" href="{{route('contact', ["#credits"])}}"><p>Contact formulier</p></a>
 {{--                    <a class="text-decoration-none text-dark" href="{{route('vacatures', ["#vacatures"])}}"><p>Vacatures</p></a>--}}
+                    <a class="text-decoration-none text-dark" href="{{route('privacy')}}"><p>Privacy Policy</p></a>
                 </div>
                 <div class="col-12 col-xl-3">
                     <h3 class="mb-4">Nieuws</h3>

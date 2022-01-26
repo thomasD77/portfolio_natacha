@@ -32,6 +32,7 @@ Route::get('/promo/selector/{id}', 'App\Http\Controllers\HomeController@promo_se
 Route::get('/cms', [App\Http\Controllers\LoginController::class, 'index'])->name('loginpage');
 Route::get('/shop', 'App\Http\Controllers\FrontendController@index')->name('shop');
 Route::get('/vacatures', 'App\Http\Controllers\FrontendController@vacatures')->name('vacatures');
+Route::get('/privacy', 'App\Http\Controllers\FrontendController@privacy')->name('privacy');
 Route::get('/products/brand/{id}', 'App\Http\Controllers\FrontendController@productsPerBrand')->name('products-Per-Brand');
 Route::get('/products/category/{id}', 'App\Http\Controllers\FrontendController@productsPerCategory')->name('products-Per-Category');
 Route::post('/updataPrice', 'App\Http\Controllers\FrontendController@updatePrice');

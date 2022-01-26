@@ -48,6 +48,38 @@
         </div>
     </section>
 
+    <div id="nieuwsbrief"></div>
+    <div id="anchor"></div>
+    <section class="container-fluid my-5">
+        <div class="row px-0 py-5" id="bereikbaar" style="background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="text-uppercase text-white">Blijf op de hoogte</h2>
+                        <p class="text-white mb-0">Schrijf u in op onze nieuwsbrief. </p>
+                        <p class="text-white">* akkoord voor GDPR bij versturen E-mail gegevens</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="form" class="input-group mb-3">
+                            <form class="d-flex flex-column" action="{{action('App\Http\Controllers\AdminReadersController@store')}}" method="post">
+                                @csrf
+                                <div class="d-flex">
+                                    <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="uw e-mail...">
+                                    <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">verstuur</button>
+                                </div>
+                                @if(Session::has('readers_message'))
+                                    <div class="alert alert-dark alert-dismissible fade show mt-4" role="alert">
+                                        <p class="mb-0 alert-dark">{{session('readers_message')}}</p>
+                                    </div>
+                                @endif
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="facebook-scroll" class="container-fluid custom">
         <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -259,36 +291,7 @@
         <div id="speer" class="mb-5"></div>
     </section>--}}
 
-   {{-- <div id="anchor"></div>
-    <section class="container-fluid my-5">
-        <div class="row px-0 py-5" id="bereikbaar">
-            <div class="col-md-10 offset-md-1">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="text-uppercase text-white">Stay Connected</h2>
-                        <p class="text-white">Subscribe to our newsletter and stay up to date with <br>
-                            latest offers and upcoming trends</p>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="form" class="input-group mb-3">
-                            <form class="d-flex flex-column" action="{{action('App\Http\Controllers\AdminReadersController@store')}}" method="post">
-                                @csrf
-                                <div class="d-flex">
-                                   <input id="inputmail" name="newsletter" type="email" class="form-control mr-0 rounded" placeholder="E-mail...">
-                                    <button class="my-lg-0 py-1 btn-dark rounded" type="submit" id="btnnewsletter">Send</button>
-                                </div>
-                                @if(Session::has('readers_message'))
-                                    <div class="alert alert-dark alert-dismissible fade show mt-4" role="alert">
-                                        <p class="mb-0 alert-dark">{{session('readers_message')}}</p>
-                                    </div>
-                                @endif
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--}}
+
 
 </main>
 @stop

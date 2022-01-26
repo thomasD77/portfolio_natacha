@@ -49,7 +49,6 @@ class ContactController extends Controller
 
             if ($responseData->success) {
 
-
                 $data = [
                     'name' => $request->name,
                     'email' => $request->email,

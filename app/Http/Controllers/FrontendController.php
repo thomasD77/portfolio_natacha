@@ -77,6 +77,13 @@ class FrontendController extends Controller
         return view('frontend.vacatures', compact( 'footer_posts', 'vacatures'));
     }
 
+    public function privacy(){
+        $vacatures = Vacature::latest()->paginate(1);
+        $timeNow = Carbon::now()->toDateString();
+        $footer_posts = Post::with(['user', 'photo', 'postcategory'])->where('book', '<=', $timeNow)->latest()->limit(2)->get();
+        return view('frontend.privacy', compact( 'footer_posts', 'vacatures'));
+    }
+
 
     public function index_post($slug){
         $timeNow = Carbon::now()->toDateString();

@@ -105,7 +105,7 @@
                 </div>
             </li>
 
-            {{--<!-- Divider -->
+            <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
 
@@ -122,7 +122,7 @@
                         <a class="collapse-item" href="{{route('readers.index')}}"><i class="far fa-check-circle pr-3"></i>Readers</a>
                     </div>
                 </div>
-            </li>--}}
+            </li>
 
                 {{--<!-- Divider -->
                 <hr class="sidebar-divider d-none d-md-block">
@@ -163,11 +163,11 @@
 
 
         <!-- Sidebar Message -->
-        <div class="sidebar-card">
-            <i class="fas fa-question-circle fa-3x mb-2"></i>
-            <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>
-            <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
-        </div>
+{{--        <div class="sidebar-card">--}}
+{{--            <i class="fas fa-question-circle fa-3x mb-2"></i>--}}
+{{--            <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>--}}
+{{--            <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>--}}
+{{--        </div>--}}
 
 
         @endcan
@@ -309,11 +309,11 @@
 
 
             <!-- Sidebar Message -->
-            <div class="sidebar-card">
-                <i class="fas fa-question-circle fa-3x mb-2"></i>
-                <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>
-                <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>
-            </div>
+{{--            <div class="sidebar-card">--}}
+{{--                <i class="fas fa-question-circle fa-3x mb-2"></i>--}}
+{{--                <p class="text-center mb-2 redtest">Do You Need Help? <br> We Are There 24/7</p>--}}
+{{--                <a class="btn btn-success btn-sm" href="mailto:thomas.demeulenaere@hotmail.com">Help me</a>--}}
+{{--            </div>--}}
 
     @endcan
 
