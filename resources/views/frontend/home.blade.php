@@ -43,12 +43,13 @@
                             </div>
                         </div>
                     @endforeach
+                    <div id="nieuwsbrief"></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="nieuwsbrief"></div>
+
     <div id="anchor"></div>
     <section class="container-fluid my-5">
         <div class="row px-0 py-5" id="bereikbaar" style="background: linear-gradient(45deg, rgba(107,197,112) 0%, rgba(0,141,127) 100%);">
